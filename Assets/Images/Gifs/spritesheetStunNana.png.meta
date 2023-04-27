@@ -1,0 +1,1533 @@
+fileFormatVersion: 2
+guid: 8ec255efb0dc2034caeb5d83afdfb4cb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheetStunNana_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcd6dffded8bb8479e8e5fe563068f9
+      internalID: -2105243904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_1
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 2400
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a35857a081286f4cb3c54a37c040abd
+      internalID: -1170414922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_2
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 2400
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5db3775b5282f4ba83736c736669ba
+      internalID: 855883118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_3
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 2400
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6dcdc7daf5c58c48bc126d080a16ff5
+      internalID: 320046379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_4
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 2400
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0476b35a2add4ea41b75939a2cff2b6a
+      internalID: 2038192909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_5
+      rect:
+        serializedVersion: 2
+        x: 3670
+        y: 2400
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1e22de55779aa488abb2ae1c83a5b8
+      internalID: -319762018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_6
+      rect:
+        serializedVersion: 2
+        x: 4404
+        y: 2400
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067b02094263d784681d106309473d12
+      internalID: -1247251110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a0575250becd84b8f3c539bbbcc72b
+      internalID: 83514674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_8
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 2100
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d08916db56b2c24c88a5776c08d960a
+      internalID: -1189852129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_9
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 2100
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605bfcb3a953acb42ad8319696bfbedb
+      internalID: -342321337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_10
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 2100
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893fa4200ce172b4283dccce62e6ab40
+      internalID: -439979532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_11
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 2100
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836c114b528d895468a7f2d931c0777d
+      internalID: -493689920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_12
+      rect:
+        serializedVersion: 2
+        x: 3670
+        y: 2100
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be565b7b58accd4bac2469d4aef6088
+      internalID: 1860863909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_13
+      rect:
+        serializedVersion: 2
+        x: 4404
+        y: 2100
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c42561f7b54bb04dac579422c798a13
+      internalID: 1790432362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e615486ee72b848aea4fd3ba7191b0
+      internalID: -1811178315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_15
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1800
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09d3c8924de4224f96fe7fb1874141e
+      internalID: -1862193966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_16
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1800
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d37b7a86c0ca948b102cca8bf2c504
+      internalID: -1486705975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_17
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 1800
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa20d9380ae9134b96a7fc0c2499580
+      internalID: 1932175948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_18
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 1800
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eedc48e2135c2f4ea74fba7d28e3cee
+      internalID: 1474404247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_19
+      rect:
+        serializedVersion: 2
+        x: 3670
+        y: 1800
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57449bac9bf23734783851593eee30be
+      internalID: 1974535296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_20
+      rect:
+        serializedVersion: 2
+        x: 4404
+        y: 1800
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9acadcc2b437c4ca149be5525e29ac
+      internalID: 1625228424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8040ffbe43cd344d8f346a0dfcf1301
+      internalID: -2127536544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_22
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1500
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22f8b93d19565d409d77d706600af08
+      internalID: 1975199412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_23
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1500
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699a888fce22b7445a482a54ac676a7a
+      internalID: -899223063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_24
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 1500
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c51e62169f4f84b93ff2756cad95a1
+      internalID: -381228484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_25
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 1500
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5036383c29b57b428a201cc4d3ca4e3
+      internalID: -1940924183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_26
+      rect:
+        serializedVersion: 2
+        x: 3670
+        y: 1500
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3a6ce240184a54c81347a28779d3d5
+      internalID: 1555958870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_27
+      rect:
+        serializedVersion: 2
+        x: 4404
+        y: 1500
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca3d4f88c338e142a8992423088c613
+      internalID: 776959543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0f2641342f49f49bab182e274b2971
+      internalID: 1665193297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_29
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1200
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406a42e526f614e40bf1995003177a4b
+      internalID: 1387020582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_30
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1200
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48421e9e5b4bbe1408e862aa9a47fbdc
+      internalID: 1876023168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_31
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 1200
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f5f4657c8842a47927c8a08d255baa
+      internalID: 346370853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_32
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 1200
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ce932ea7da4d042a1a4d6c90742c42
+      internalID: 1947455769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_33
+      rect:
+        serializedVersion: 2
+        x: 3670
+        y: 1200
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89761690076b2074094d54d77aa3bcaa
+      internalID: 800456191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_34
+      rect:
+        serializedVersion: 2
+        x: 4404
+        y: 1200
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64ca9cd77a791b45a6f3f5b87becc75
+      internalID: -1547715179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1cbb829021c8c4aa18f05caa255296
+      internalID: -1138580882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_36
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 900
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981beac7605fbc84eab52c777a6757d1
+      internalID: 438685058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_37
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 900
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a2a65de7f79ae46bb6927018a2b53d
+      internalID: 2008261563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_38
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 900
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f6ccebe2c88a248a6eb74ad4e976b3
+      internalID: 126360863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_39
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 900
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dda3eb0936b56a4180a01f27fd7aa83
+      internalID: -180049493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_40
+      rect:
+        serializedVersion: 2
+        x: 3670
+        y: 900
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f96ce82f4b540240ad26c7cb9b7f269
+      internalID: 746094040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_41
+      rect:
+        serializedVersion: 2
+        x: 4404
+        y: 900
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3bae2fd91a43c4f8a7561ab603f089
+      internalID: -1275432937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90971c2b5c7e9904ab2e939fd61c8f38
+      internalID: -201089233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_43
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 600
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7c53fa8289dbb4eb880b56889279a2
+      internalID: 766844018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_44
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 600
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44e91e8e4d45ba4fb91a0d8cc9bbdf0
+      internalID: 1209693341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_45
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 600
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c7c10e0acdd0a44ad935df9676af95
+      internalID: 1093924178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_46
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 600
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e7f4b97b759164eab143aa61ac8882
+      internalID: -739185558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_47
+      rect:
+        serializedVersion: 2
+        x: 3670
+        y: 600
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1d90bc9c049864b8eeed2ac0f8402b
+      internalID: 1934492039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_48
+      rect:
+        serializedVersion: 2
+        x: 4404
+        y: 600
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77f0063c4dd50449a295028cd0c5b7b
+      internalID: 1849470478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54d0cd5d057b14498072fd18a1e7aa0
+      internalID: -34567556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_50
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 300
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cfdf09c8d949c43bb0b4d7baeaf497
+      internalID: -810175807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_51
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 300
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b5f88b473385b4ea241fc47bc011d4
+      internalID: -1572797404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_52
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 300
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905fd7700c16e224caf8a8821e0a07b5
+      internalID: -1901070952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_53
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 300
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b64be908e8087045b7ff8bc66ac9771
+      internalID: -1145964237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_54
+      rect:
+        serializedVersion: 2
+        x: 3670
+        y: 300
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffaa7bfa690038428d6c2a334554f74
+      internalID: 1752559584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_55
+      rect:
+        serializedVersion: 2
+        x: 4404
+        y: 300
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb447b62e859bc4d903fc524c4cb9a4
+      internalID: 239303934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e868fd60a5f5954ca5982831b4441c6
+      internalID: 351771676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_57
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 0
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be244d2000bd5db48a0870b7e69614c6
+      internalID: 410997217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_58
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 0
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a13809d6c808c499734ba96160fac0
+      internalID: 845009222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_59
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 0
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d3bd473f84aff4783441b85cfc3d2e
+      internalID: -515416597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_60
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 0
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0aac513c9c8ff40b86ff466ff7aa64
+      internalID: 81271029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_61
+      rect:
+        serializedVersion: 2
+        x: 3670
+        y: 0
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae614c64c8f53ec4b9b7a1967b359ac8
+      internalID: 1302067614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetStunNana_62
+      rect:
+        serializedVersion: 2
+        x: 4404
+        y: 0
+        width: 734
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d95f4a1ff72df4787d126018a6464e
+      internalID: -1343683018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f0865a67c1759544ca916873a50cac8c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spritesheetStunNana_0: -2105243904
+      spritesheetStunNana_1: -1170414922
+      spritesheetStunNana_10: -439979532
+      spritesheetStunNana_11: -493689920
+      spritesheetStunNana_12: 1860863909
+      spritesheetStunNana_13: 1790432362
+      spritesheetStunNana_14: -1811178315
+      spritesheetStunNana_15: -1862193966
+      spritesheetStunNana_16: -1486705975
+      spritesheetStunNana_17: 1932175948
+      spritesheetStunNana_18: 1474404247
+      spritesheetStunNana_19: 1974535296
+      spritesheetStunNana_2: 855883118
+      spritesheetStunNana_20: 1625228424
+      spritesheetStunNana_21: -2127536544
+      spritesheetStunNana_22: 1975199412
+      spritesheetStunNana_23: -899223063
+      spritesheetStunNana_24: -381228484
+      spritesheetStunNana_25: -1940924183
+      spritesheetStunNana_26: 1555958870
+      spritesheetStunNana_27: 776959543
+      spritesheetStunNana_28: 1665193297
+      spritesheetStunNana_29: 1387020582
+      spritesheetStunNana_3: 320046379
+      spritesheetStunNana_30: 1876023168
+      spritesheetStunNana_31: 346370853
+      spritesheetStunNana_32: 1947455769
+      spritesheetStunNana_33: 800456191
+      spritesheetStunNana_34: -1547715179
+      spritesheetStunNana_35: -1138580882
+      spritesheetStunNana_36: 438685058
+      spritesheetStunNana_37: 2008261563
+      spritesheetStunNana_38: 126360863
+      spritesheetStunNana_39: -180049493
+      spritesheetStunNana_4: 2038192909
+      spritesheetStunNana_40: 746094040
+      spritesheetStunNana_41: -1275432937
+      spritesheetStunNana_42: -201089233
+      spritesheetStunNana_43: 766844018
+      spritesheetStunNana_44: 1209693341
+      spritesheetStunNana_45: 1093924178
+      spritesheetStunNana_46: -739185558
+      spritesheetStunNana_47: 1934492039
+      spritesheetStunNana_48: 1849470478
+      spritesheetStunNana_49: -34567556
+      spritesheetStunNana_5: -319762018
+      spritesheetStunNana_50: -810175807
+      spritesheetStunNana_51: -1572797404
+      spritesheetStunNana_52: -1901070952
+      spritesheetStunNana_53: -1145964237
+      spritesheetStunNana_54: 1752559584
+      spritesheetStunNana_55: 239303934
+      spritesheetStunNana_56: 351771676
+      spritesheetStunNana_57: 410997217
+      spritesheetStunNana_58: 845009222
+      spritesheetStunNana_59: -515416597
+      spritesheetStunNana_6: -1247251110
+      spritesheetStunNana_60: 81271029
+      spritesheetStunNana_61: 1302067614
+      spritesheetStunNana_62: -1343683018
+      spritesheetStunNana_7: 83514674
+      spritesheetStunNana_8: -1189852129
+      spritesheetStunNana_9: -342321337
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

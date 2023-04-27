@@ -1,0 +1,1225 @@
+fileFormatVersion: 2
+guid: e5a7c336eeb7d82488dc339c45f89988
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1758
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39cf0a76fc4fc54a93501e8feb7c3c9
+      internalID: 1904065968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_1
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1758
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c725aa93b3965942bd427c25c3d3a64
+      internalID: 156720769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_2
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1758
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89694e9910206bc4eb7770bc5f9afe66
+      internalID: 10303210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_3
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 1758
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d00c3f95b92594f906915a65807cd6
+      internalID: -1386864672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_4
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 1758
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0474272014347479e8268d83249540
+      internalID: -1373331313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_5
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 1758
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d440f4221bb0f24eab3e15568e71bca
+      internalID: -1113757704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_6
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 1758
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc48665ef96cd2840bfc9d37448c0928
+      internalID: -2023321756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1465
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2e5e9cc6d8b4a44ad9c3bfcf40582b
+      internalID: -1822894416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_8
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1465
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce90d5aabaa8bf4faf364f8e37bc47e
+      internalID: -1376164943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_9
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1465
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05eb2cdf6570ac84ab40e495759fa782
+      internalID: 12385523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_10
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 1465
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fed0807250140443a1a299af517e4fe
+      internalID: -780798042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_11
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 1465
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f04e7a5841ebd242acd55872f04db12
+      internalID: 458582259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_12
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 1465
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21c40127702a7b44ba6a5c460dc76b3
+      internalID: -1763628743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_13
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 1465
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83560a64f32e70448940911b9f5c314e
+      internalID: 650974782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1172
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43c41b37ff681c45aae24248962408c
+      internalID: -1960824548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_15
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1172
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cbb2ef676843049be664f48cebe230
+      internalID: 236127633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_16
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1172
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3169d6101fec9344b0b4993b77c4545
+      internalID: -78273482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_17
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 1172
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcefb9f5fa2bdf140b5bbc096cbea3e2
+      internalID: -264757034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_18
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 1172
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7315a5e9219dac43891b3d02f19c08e
+      internalID: 825170955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_19
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 1172
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae11b4d71326078408e7e31066b21754
+      internalID: 1576948397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_20
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 1172
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74ac708076c8e74a94ef9e391da771d
+      internalID: 1994684252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 879
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec16bef91c96504b8faa93dffb33d69
+      internalID: -952754336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_22
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 879
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902a7a89e7aeefe4d91d9406218a138e
+      internalID: -1934593800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_23
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 879
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db897ab3a3ea2a49ad95eb229ca9e72
+      internalID: -629890679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_24
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 879
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e033bbf910984d04e825771f3b687e69
+      internalID: -888617038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_25
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 879
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125a5d53496e73743a994424f66388c5
+      internalID: 1467490273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_26
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 879
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685ef75e68dccee438d6051dcf30436a
+      internalID: -90316717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_27
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 879
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c52b2c4057ec34d94d0d59dffc9cc3
+      internalID: 1394931915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 586
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969b4494129866749a9d53d5d8cbb418
+      internalID: 1950887524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_29
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 586
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebdcb012824b51448b206cc424c44ed5
+      internalID: 38284660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_30
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 586
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9cea140e51c9744bbf7ec4952a2fd2
+      internalID: 304455918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_31
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 586
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2a565030b9b61418ef0fa2bb1b55a5
+      internalID: -1916518257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_32
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 586
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b338388a974dae479759e2b82386b48
+      internalID: -1836615766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_33
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 586
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b7165818710e54980915b748f7e807
+      internalID: -58129768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_34
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 586
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f2fa0a94934be429eb4d2d6e8fc067
+      internalID: -479032205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 293
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863052a371774d143823e360a4a0e906
+      internalID: 1329671386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_36
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 293
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140c4780b1425444a955885f8ab16176
+      internalID: 204535004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_37
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 293
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75066d7c2a4af04468e1fe60d82d145d
+      internalID: -899468262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_38
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 293
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645068e10bf900d4db219a2392a4d440
+      internalID: -812170634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_39
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 293
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a873b2f64686ee4aae1c1e26b96b7c2
+      internalID: 2103193889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_40
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 293
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f53e0b9ad5b2a4db4ab4f9e30a2635
+      internalID: 1651862183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_41
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 293
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9292b9808aa05814f8f5219541a661e2
+      internalID: 1643121418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0412f48ca253a4ea5858b00e839839
+      internalID: 1914021808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_43
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 0
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87880846d9f50e4287c566e70ab82b0
+      internalID: 892208496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_44
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 0
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed081ce905bc0c7498a8ce11e07a127e
+      internalID: 2070332965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_45
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 0
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bdb08a8e8953d46a1909661dc751e3
+      internalID: 1388788057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_46
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 0
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856be5ef5b764dc44bddfb1068f94526
+      internalID: -170507073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_47
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 0
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f330dfe4ee329494c95ec6eb85708f10
+      internalID: 1528108729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetBlueLaser_48
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 0
+        width: 519
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07903c91394a5574ba18a8538abc701c
+      internalID: -682105516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: eef02edb519838c44baed83d813006a4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spritesheetBlueLaser_0: 1904065968
+      spritesheetBlueLaser_1: 156720769
+      spritesheetBlueLaser_10: -780798042
+      spritesheetBlueLaser_11: 458582259
+      spritesheetBlueLaser_12: -1763628743
+      spritesheetBlueLaser_13: 650974782
+      spritesheetBlueLaser_14: -1960824548
+      spritesheetBlueLaser_15: 236127633
+      spritesheetBlueLaser_16: -78273482
+      spritesheetBlueLaser_17: -264757034
+      spritesheetBlueLaser_18: 825170955
+      spritesheetBlueLaser_19: 1576948397
+      spritesheetBlueLaser_2: 10303210
+      spritesheetBlueLaser_20: 1994684252
+      spritesheetBlueLaser_21: -952754336
+      spritesheetBlueLaser_22: -1934593800
+      spritesheetBlueLaser_23: -629890679
+      spritesheetBlueLaser_24: -888617038
+      spritesheetBlueLaser_25: 1467490273
+      spritesheetBlueLaser_26: -90316717
+      spritesheetBlueLaser_27: 1394931915
+      spritesheetBlueLaser_28: 1950887524
+      spritesheetBlueLaser_29: 38284660
+      spritesheetBlueLaser_3: -1386864672
+      spritesheetBlueLaser_30: 304455918
+      spritesheetBlueLaser_31: -1916518257
+      spritesheetBlueLaser_32: -1836615766
+      spritesheetBlueLaser_33: -58129768
+      spritesheetBlueLaser_34: -479032205
+      spritesheetBlueLaser_35: 1329671386
+      spritesheetBlueLaser_36: 204535004
+      spritesheetBlueLaser_37: -899468262
+      spritesheetBlueLaser_38: -812170634
+      spritesheetBlueLaser_39: 2103193889
+      spritesheetBlueLaser_4: -1373331313
+      spritesheetBlueLaser_40: 1651862183
+      spritesheetBlueLaser_41: 1643121418
+      spritesheetBlueLaser_42: 1914021808
+      spritesheetBlueLaser_43: 892208496
+      spritesheetBlueLaser_44: 2070332965
+      spritesheetBlueLaser_45: 1388788057
+      spritesheetBlueLaser_46: -170507073
+      spritesheetBlueLaser_47: 1528108729
+      spritesheetBlueLaser_48: -682105516
+      spritesheetBlueLaser_5: -1113757704
+      spritesheetBlueLaser_6: -2023321756
+      spritesheetBlueLaser_7: -1822894416
+      spritesheetBlueLaser_8: -1376164943
+      spritesheetBlueLaser_9: 12385523
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

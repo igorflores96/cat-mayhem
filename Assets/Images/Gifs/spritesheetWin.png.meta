@@ -1,0 +1,1687 @@
+fileFormatVersion: 2
+guid: 229d5a86486abea4b81dd0064d9e30bc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheetWin_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4761
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5422d32873c2f50419eb493dfc8977d0
+      internalID: 940006956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_1
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 4761
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee3b135fc46f6b4e87ad3a610b2a21e
+      internalID: -1618239261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_2
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 4761
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca97e553cb87a8a48ada939ece4b77b1
+      internalID: -769153436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_3
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 4761
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1679544a683be2b4e84424a8e912527b
+      internalID: -1396045965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_4
+      rect:
+        serializedVersion: 2
+        x: 4672
+        y: 4761
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480bda58cd61bb049966e6bc05f286a7
+      internalID: -1829664179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_5
+      rect:
+        serializedVersion: 2
+        x: 5840
+        y: 4761
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db800760c6474344bea144ffa6b50be
+      internalID: 453953317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_6
+      rect:
+        serializedVersion: 2
+        x: 7008
+        y: 4761
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f07d42f468c1947bec56640ed4edf8
+      internalID: -146910470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4232
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189bbd36d0dca84468301e70a60a8b17
+      internalID: 693991076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_8
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 4232
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64ea5b9f47ff6248a3bb7ffe72f1f60
+      internalID: -2084191856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_9
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 4232
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a413c15017058684f85450d64d989e01
+      internalID: -1374926868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_10
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 4232
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03dd18a8d719c604da2266e4a0a793a8
+      internalID: 1693582014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_11
+      rect:
+        serializedVersion: 2
+        x: 4672
+        y: 4232
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547c9f0e6b23afd4ca26193394d58e9e
+      internalID: 1549731314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_12
+      rect:
+        serializedVersion: 2
+        x: 5840
+        y: 4232
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efa7960137680249aa7cd818dec45be
+      internalID: 56040234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_13
+      rect:
+        serializedVersion: 2
+        x: 7008
+        y: 4232
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fc6a02de6d8ff479e79fe185ccb813
+      internalID: 1647725990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3703
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2ce267302b6a849af69f5a0759899e
+      internalID: -1296776187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_15
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 3703
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef738432eae0f2646ba6d0c63af70e37
+      internalID: 763814437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_16
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 3703
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba28ac221aa6cd4999bad4abbd0a003
+      internalID: -1364995810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_17
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 3703
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2311decadfb35a49b7e82d44cfe60f1
+      internalID: 288356719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_18
+      rect:
+        serializedVersion: 2
+        x: 4672
+        y: 3703
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e679c2994c1057d47b89a7e9f2d0a301
+      internalID: -172187818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_19
+      rect:
+        serializedVersion: 2
+        x: 5840
+        y: 3703
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e897b5c81daed134d8ba0c09de4a5bcd
+      internalID: 726246611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_20
+      rect:
+        serializedVersion: 2
+        x: 7008
+        y: 3703
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07983e514b3b2d74ebedc90461794411
+      internalID: 44431380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3174
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ce6e02535a19d408b1908d85140afc
+      internalID: -2139328757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_22
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 3174
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa45ee96b6ae1b4fb389dd45c4dab40
+      internalID: -380449483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_23
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 3174
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d553f54be2f4a59408dc3c9b8b9d10ba
+      internalID: 33562391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_24
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 3174
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec9f580337bfcf478ac071f8ca21adf
+      internalID: 2025731886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_25
+      rect:
+        serializedVersion: 2
+        x: 4672
+        y: 3174
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507d2d8254862e140aadbb0e61626399
+      internalID: -1333054190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_26
+      rect:
+        serializedVersion: 2
+        x: 5840
+        y: 3174
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea584b34963a5b4bac0f49acd3e5d2c
+      internalID: -1633668641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_27
+      rect:
+        serializedVersion: 2
+        x: 7008
+        y: 3174
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbdfeee6ce3a5446bcf3e34e8d160ee
+      internalID: -982945894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2645
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75164ddbf2d31e043842995d2508f663
+      internalID: 1549354457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_29
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 2645
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53519d67b122d154d9630294b4a56003
+      internalID: 568580728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_30
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 2645
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4e9ab582e2bbc4698af51b29026e47
+      internalID: -1143493867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_31
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 2645
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f9d03a85cb1a94889cbed8fa855df7
+      internalID: -2139091411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_32
+      rect:
+        serializedVersion: 2
+        x: 4672
+        y: 2645
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c44fe9fd2710d4398420054b42e1e5
+      internalID: 1757713181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_33
+      rect:
+        serializedVersion: 2
+        x: 5840
+        y: 2645
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59170d50e3a111a4f8ab92223f71cda9
+      internalID: 2110880911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_34
+      rect:
+        serializedVersion: 2
+        x: 7008
+        y: 2645
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03552bb90123389408a986ee523a7656
+      internalID: -1346074427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2116
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0165961087a45de45829852eb7574bf4
+      internalID: 1708841810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_36
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 2116
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb45382127937545b96825d85c11b00
+      internalID: 427496328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_37
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 2116
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852c1cc758a61a84fbaac7e93e0942e1
+      internalID: 1647863373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_38
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 2116
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4745be521ab4af748bd92275bffdde75
+      internalID: 1469603614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_39
+      rect:
+        serializedVersion: 2
+        x: 4672
+        y: 2116
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef93accf7f722a546a92554440a5c8d8
+      internalID: 2140629307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_40
+      rect:
+        serializedVersion: 2
+        x: 5840
+        y: 2116
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee3001b8b99a6848b67d613abf73c9d
+      internalID: 1149386549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_41
+      rect:
+        serializedVersion: 2
+        x: 7008
+        y: 2116
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48602cccb57f154c8d87aaa567ea07b
+      internalID: -1913525802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1587
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cbb133da7ecbc478608e2c89105c07
+      internalID: -323812563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_43
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1587
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e22d7a04d290e4c8a7767738852056
+      internalID: -405936379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_44
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 1587
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3ba49eb89555342ad90d90eb62fabd
+      internalID: -1403119442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_45
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 1587
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7296718ffad060040a18ec45da42febc
+      internalID: -2142508871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_46
+      rect:
+        serializedVersion: 2
+        x: 4672
+        y: 1587
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b6255030b666946b5b3e2222d501cd
+      internalID: 2637286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_47
+      rect:
+        serializedVersion: 2
+        x: 5840
+        y: 1587
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7be8f314728ca4488ff58fc5c257dc9
+      internalID: 124730078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_48
+      rect:
+        serializedVersion: 2
+        x: 7008
+        y: 1587
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ab4bee4977e27409fdca9f7d82abeb
+      internalID: 895282491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1058
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2323f7302f5ede4da6a38ee4af6486c
+      internalID: 282009318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_50
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1058
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65aa6ccae390d044c9010a112148a14e
+      internalID: -1068960162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_51
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 1058
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7976266375d44b74ab19dd82a33adf92
+      internalID: 1800593732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_52
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 1058
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368d548cd47fbb649ac8ac12f17c32db
+      internalID: 1380064368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_53
+      rect:
+        serializedVersion: 2
+        x: 4672
+        y: 1058
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bd64933c9a7cd4abf2d308781962e0
+      internalID: -596758783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_54
+      rect:
+        serializedVersion: 2
+        x: 5840
+        y: 1058
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d66352319ed7a4a87a1438f71b892c
+      internalID: -283012950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_55
+      rect:
+        serializedVersion: 2
+        x: 7008
+        y: 1058
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf847342dd80d9469352f972bc21b6d
+      internalID: -316426916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 529
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbba76ec5ba3964d840846c2d82324d
+      internalID: 1566073861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_57
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 529
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4932ecd72d5924d4eae0f0396dfe6cc0
+      internalID: -1522309146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_58
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 529
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ecef6c18362c24082838df5cf0ae80
+      internalID: -368334981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_59
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 529
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d12fd9cdd931a2449c46faf4c67c2a3
+      internalID: 1260980695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_60
+      rect:
+        serializedVersion: 2
+        x: 4672
+        y: 529
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7577cd121399def479b3f697b2e1d002
+      internalID: 1672758634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_61
+      rect:
+        serializedVersion: 2
+        x: 5840
+        y: 529
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fb14f981b89e2478b29c9accef5fd9
+      internalID: -78164010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_62
+      rect:
+        serializedVersion: 2
+        x: 7008
+        y: 529
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c63ed6a9580de04daeb926984344336
+      internalID: -913834368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd58986b0d8695c4ba338cf7c019556b
+      internalID: -365272137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_64
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 0
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ac7d462f75e40478c3b70df25ec0dd
+      internalID: -1122758684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_65
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 0
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ad0afd310621442a7cb25c54049f02
+      internalID: -686531499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_66
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 0
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809fbb17204531a4eadb5ccee7bf34ac
+      internalID: 1226321698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_67
+      rect:
+        serializedVersion: 2
+        x: 4672
+        y: 0
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965f158b314cb504198659e6635d0d5d
+      internalID: -107863643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_68
+      rect:
+        serializedVersion: 2
+        x: 5840
+        y: 0
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75fef32252a6584f88ddaf6a9d959d4
+      internalID: 1554545519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheetWin_69
+      rect:
+        serializedVersion: 2
+        x: 7008
+        y: 0
+        width: 1168
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9dea012b1c12c42a4e2abae06bb835
+      internalID: -479174726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spritesheetWin_0: 940006956
+      spritesheetWin_1: -1618239261
+      spritesheetWin_10: 1693582014
+      spritesheetWin_11: 1549731314
+      spritesheetWin_12: 56040234
+      spritesheetWin_13: 1647725990
+      spritesheetWin_14: -1296776187
+      spritesheetWin_15: 763814437
+      spritesheetWin_16: -1364995810
+      spritesheetWin_17: 288356719
+      spritesheetWin_18: -172187818
+      spritesheetWin_19: 726246611
+      spritesheetWin_2: -769153436
+      spritesheetWin_20: 44431380
+      spritesheetWin_21: -2139328757
+      spritesheetWin_22: -380449483
+      spritesheetWin_23: 33562391
+      spritesheetWin_24: 2025731886
+      spritesheetWin_25: -1333054190
+      spritesheetWin_26: -1633668641
+      spritesheetWin_27: -982945894
+      spritesheetWin_28: 1549354457
+      spritesheetWin_29: 568580728
+      spritesheetWin_3: -1396045965
+      spritesheetWin_30: -1143493867
+      spritesheetWin_31: -2139091411
+      spritesheetWin_32: 1757713181
+      spritesheetWin_33: 2110880911
+      spritesheetWin_34: -1346074427
+      spritesheetWin_35: 1708841810
+      spritesheetWin_36: 427496328
+      spritesheetWin_37: 1647863373
+      spritesheetWin_38: 1469603614
+      spritesheetWin_39: 2140629307
+      spritesheetWin_4: -1829664179
+      spritesheetWin_40: 1149386549
+      spritesheetWin_41: -1913525802
+      spritesheetWin_42: -323812563
+      spritesheetWin_43: -405936379
+      spritesheetWin_44: -1403119442
+      spritesheetWin_45: -2142508871
+      spritesheetWin_46: 2637286
+      spritesheetWin_47: 124730078
+      spritesheetWin_48: 895282491
+      spritesheetWin_49: 282009318
+      spritesheetWin_5: 453953317
+      spritesheetWin_50: -1068960162
+      spritesheetWin_51: 1800593732
+      spritesheetWin_52: 1380064368
+      spritesheetWin_53: -596758783
+      spritesheetWin_54: -283012950
+      spritesheetWin_55: -316426916
+      spritesheetWin_56: 1566073861
+      spritesheetWin_57: -1522309146
+      spritesheetWin_58: -368334981
+      spritesheetWin_59: 1260980695
+      spritesheetWin_6: -146910470
+      spritesheetWin_60: 1672758634
+      spritesheetWin_61: -78164010
+      spritesheetWin_62: -913834368
+      spritesheetWin_63: -365272137
+      spritesheetWin_64: -1122758684
+      spritesheetWin_65: -686531499
+      spritesheetWin_66: 1226321698
+      spritesheetWin_67: -107863643
+      spritesheetWin_68: 1554545519
+      spritesheetWin_69: -479174726
+      spritesheetWin_7: 693991076
+      spritesheetWin_8: -2084191856
+      spritesheetWin_9: -1374926868
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
