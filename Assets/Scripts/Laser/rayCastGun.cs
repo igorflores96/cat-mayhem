@@ -6,10 +6,13 @@ using UnityEngine;
 public class rayCastGun : MonoBehaviour
 {
 
+    [Header("Atribuições de Objetos")]
     public Camera playerCamera;
     public Transform laserOrigin;
-    public LayerMask maskLayer;
     public Transform laserObject;
+
+    [Header("Seleção de Lasers e Camadas")]
+    public LayerMask maskLayer;
     public LasersTypes currentLaser;
 
 
