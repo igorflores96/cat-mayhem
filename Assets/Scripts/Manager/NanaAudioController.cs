@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class nana_audioController : MonoBehaviour
+public class NanaAudioController : MonoBehaviour
 {
     public AudioSource source;
     public Vector3 minScale;
@@ -13,11 +13,11 @@ public class nana_audioController : MonoBehaviour
     public float limit = 0.1f;
     private bool canStunNana = false;
 
-    private nana_movement nanaScript;
+    private NanaMovement nanaScript;
 
     private void Awake()
     {
-        nanaScript = GetComponent<nana_movement>();
+        nanaScript = GetComponent<NanaMovement>();
     }
 
     private void Update()

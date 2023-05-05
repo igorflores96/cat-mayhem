@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class cat_colissions : MonoBehaviour
+public class CatColissions : MonoBehaviour
 {
     public bool isCatch = false;
     private void OnTriggerEnter(Collider other)

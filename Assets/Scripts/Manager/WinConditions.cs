@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
-public class win_conditions : MonoBehaviour
+public class WinConditions : MonoBehaviour
 {
     [Header("Objects")]
     [SerializeField] private GameObject catObject;
@@ -33,7 +33,7 @@ public class win_conditions : MonoBehaviour
 
         caosCountText.text = "Barra de caos em: ";
 
-        if (catObject.GetComponent<cat_colissions>().isCatch)
+        if (catObject.GetComponent<CatColissions>().isCatch)
         {
             SceneManager.LoadScene((int)ScenesNames.loseScene);
         }
@@ -45,7 +45,7 @@ public class win_conditions : MonoBehaviour
 
         for (int i = 0; i < brokenObjectsInScene.Length; i++)
         {
-            if (brokenObjectsInScene[i].GetComponent<brekable_objects>().IsBrokenStatus() && objectCaosCount[i] == false)
+            if (brokenObjectsInScene[i].GetComponent<BrekableObjects>().IsBrokenStatus() && objectCaosCount[i] == false)
             {
                 objectCaosCount[i] = true;
                 caosCount++;

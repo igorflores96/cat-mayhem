@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class nana_timer : MonoBehaviour
+public class NanaTimer : MonoBehaviour
 {
     [Header("Timer Settings")]
     public float currentTime;
@@ -12,8 +12,8 @@ public class nana_timer : MonoBehaviour
     public float stunCurrentTime = 0f;
 
     [Header("Objects Settings")]
-    public nana_movement nanaAgent;
-    public nana_audioController nanaSound;
+    public NanaMovement nanaAgent;
+    public NanaAudioController nanaSound;
 
     [Header("Canvas Settings")]
     public TextMeshProUGUI textStun;

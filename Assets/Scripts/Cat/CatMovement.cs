@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class cat_movement : MonoBehaviour
+public class CatMovement : MonoBehaviour
 {
 	public LayerMask groundLayer;
 	public rayCastGun laserScript;

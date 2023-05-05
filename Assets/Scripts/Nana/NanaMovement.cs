@@ -4,13 +4,13 @@ using UnityEngine;
 using UnityEngine.AI;
 
 
-public class nana_movement : MonoBehaviour
+public class NanaMovement : MonoBehaviour
 {
     public NavMeshAgent agent;
     public float range;
     public Transform centrePoint;
 
-
+    public WinConditions winConditionsScript;
     public GameObject player;
     public float radius;
     [Range(0, 360)]
@@ -21,7 +21,7 @@ public class nana_movement : MonoBehaviour
 
     public GameObject safePointNana;
     public GameObject[] routPoints;
-    public brekable_objects[] objectsForChase;
+    private GameObject[] objectsForChase;
     private bool[] checkBrokenObject;
     private int currentRoutPoint;
     private Vector3 currentBrokenObject;
@@ -37,6 +37,7 @@ public class nana_movement : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         StartCoroutine(FOVRoutine());
         agent = GetComponent<NavMeshAgent>();
+        objectsForChase = winConditionsScript.brokenObjectsInScene;
         checkBrokenObject = new bool[objectsForChase.Length];
         currentRoutPoint = 0;
         agent.SetDestination(safePointNana.transform.position);
@@ -104,9 +105,9 @@ public class nana_movement : MonoBehaviour
     {
         for(int i = 0; i < objectsForChase.Length; i++)
         {
-            if(objectsForChase[i].IsBrokenStatus() && checkBrokenObject[i] == false)
+            if (objectsForChase[i].GetComponent<BrekableObjects>().IsBrokenStatus() && checkBrokenObject[i] == false)
             {
-                currentBrokenObject = objectsForChase[i].GetPositionObject();
+                currentBrokenObject = objectsForChase[i].GetComponent<Transform>().position;
                 checkBrokenObject[i] = true;
                 chaseBrokenObject = true;
             }
@@ -153,19 +154,16 @@ public class nana_movement : MonoBehaviour
             agent.SetDestination(player.transform.position);
             agent.speed = 2.1f;      
         }
-
     }
 
     private void AnimationsNana()
     {
-
         if (agent.isStopped == true)
             nanaAnimation.SetInteger("transition", 0);
         else if (canSeePlayer)
             nanaAnimation.SetInteger("transition", 2);
         else
             nanaAnimation.SetInteger("transition", 1);
-
     }
 
     public bool NanaIsStopped()

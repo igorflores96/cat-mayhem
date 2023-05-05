@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class clothesLine : MonoBehaviour
+public class ClothesLine : MonoBehaviour
 {
     public Rigidbody clothesRb;
     public bool isclothesLine;
-    public clothesLine otherClothesLine;
+    public ClothesLine otherClothesLine;
 
     private bool isPhysicsSet = false;
 

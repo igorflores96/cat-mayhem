@@ -1,12 +1,12 @@
 using UnityEditor;
 using UnityEngine;
 
-[CustomEditor(typeof(nana_movement))]
+[CustomEditor(typeof(NanaMovement))]
 public class FovEditor : Editor
 {
     private void OnSceneGUI()
     {
-        nana_movement fov = (nana_movement)target;
+        NanaMovement fov = (NanaMovement)target;
         Handles.color = Color.white;
         Handles.DrawWireArc(fov.transform.position, Vector3.up, Vector3.forward, 360, fov.radius);
 

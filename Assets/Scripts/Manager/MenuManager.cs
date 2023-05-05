@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class menu_manager : MonoBehaviour
+public class MenuManager : MonoBehaviour
 {
     public void PlayIsClicked()
     {

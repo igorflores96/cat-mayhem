@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class brekable_objects : MonoBehaviour
+public class BrekableObjects : MonoBehaviour
 {
     private bool isBroken = false;
-    [SerializeField] private clothesLine clothes = null;
+    [SerializeField] private ClothesLine clothes = null;
     [SerializeField] private bool isDestructable = false;
     [SerializeField] private Breakable scriptDestruction;
 

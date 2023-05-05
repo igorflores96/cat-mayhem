@@ -3331,7 +3331,7 @@ GameObject:
   - component: {fileID: 716702986}
   - component: {fileID: 716702985}
   m_Layer: 5
-  m_Name: barraVazia
+  m_Name: EmptyBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4091,10 +4091,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 963194227}
   laserOrigin: {fileID: 282254816}
+  laserObject: {fileID: 918294036}
   maskLayer:
     serializedVersion: 2
     m_Bits: 2147483647
-  laserObject: {fileID: 918294036}
   currentLaser: 0
 --- !u!120 &918294038
 LineRenderer:
@@ -4481,7 +4481,7 @@ GameObject:
   - component: {fileID: 942019679}
   - component: {fileID: 942019678}
   m_Layer: 5
-  m_Name: barraPreenchida
+  m_Name: FullBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4626,6 +4626,7 @@ MonoBehaviour:
   agent: {fileID: 0}
   range: 6
   centrePoint: {fileID: 979645940}
+  winConditionsScript: {fileID: 1623911103}
   player: {fileID: 1877638245}
   radius: 4
   angle: 90
@@ -4642,23 +4643,6 @@ MonoBehaviour:
   - {fileID: 882421255}
   - {fileID: 1925308587}
   - {fileID: 794800358}
-  objectsForChase:
-  - {fileID: 346839015}
-  - {fileID: 847010322}
-  - {fileID: 1526034165}
-  - {fileID: 1619799270}
-  - {fileID: 29331559}
-  - {fileID: 982838643}
-  - {fileID: 1930712757}
-  - {fileID: 1888480860}
-  - {fileID: 272444042}
-  - {fileID: 1040836893}
-  - {fileID: 1829070568}
-  - {fileID: 109277856}
-  - {fileID: 689609700}
-  - {fileID: 1542373006}
-  - {fileID: 978383736}
-  - {fileID: 401590449}
 --- !u!136 &947268588
 CapsuleCollider:
   m_ObjectHideFlags: 0
