@@ -15,6 +15,8 @@ public class rayCastGun : MonoBehaviour
     public LayerMask maskLayer;
     public LasersTypes currentLaser;
 
+    public bool useLaserBlue = false;
+
 
     private LineRenderer laserLine;
 
@@ -41,9 +43,8 @@ public class rayCastGun : MonoBehaviour
             laserLine.startColor = Color.red;
             laserLine.endColor = Color.red;
             currentLaser = LasersTypes.laserRed;
-
         }
-        else if(Input.GetKeyDown("2"))
+        else if(Input.GetKeyDown("2") && useLaserBlue)
         {
             laserLine.startColor = Color.blue;
             laserLine.endColor = Color.blue;
@@ -68,6 +69,5 @@ public class rayCastGun : MonoBehaviour
         {
             laserLine.enabled = false;
         }
-
     }
 }

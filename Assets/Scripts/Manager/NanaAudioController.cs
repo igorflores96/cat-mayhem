@@ -52,5 +52,4 @@ public class NanaAudioController : MonoBehaviour
     {
         canStunNana = false;
     }
-
 }

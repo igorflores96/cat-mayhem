@@ -1611,9 +1611,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0cd21898020152458839f136a2e0da0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clothesRb: {fileID: 346839014}
-  isclothesLine: 0
-  otherClothesLine: {fileID: 401590446}
 --- !u!1 &364046894
 GameObject:
   m_ObjectHideFlags: 0
@@ -1838,9 +1835,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0cd21898020152458839f136a2e0da0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clothesRb: {fileID: 401590448}
-  isclothesLine: 0
-  otherClothesLine: {fileID: 346839020}
 --- !u!65 &401590447
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4096,6 +4090,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 2147483647
   currentLaser: 0
+  useLaserBlue: 1
 --- !u!120 &918294038
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -4788,10 +4783,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.28147662, y: 0.64841574, z: -0.28120655, w: 0.64903843}
-  m_LocalPosition: {x: -8.083, y: 7.117, z: -0.371}
+  m_LocalPosition: {x: -7.22, y: 6.21, z: -0.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1793298210}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 46.891, y: 89.945, z: 0}
@@ -7681,14 +7677,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793298209}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.809, y: 6.34, z: -1.13614}
-  m_LocalScale: {x: 2.7, y: 2.7, z: 2.7}
+  m_LocalRotation: {x: -0.28147662, y: -0.64841574, z: 0.28120655, w: 0.64903843}
+  m_LocalPosition: {x: 0.7654027, y: -0.33149296, z: 0.75399977}
+  m_LocalScale: {x: 2.6999998, y: 2.7, z: 2.6999998}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 918294036}
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 963194228}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1829070566 stripped
 GameObject:
