@@ -1611,6 +1611,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0cd21898020152458839f136a2e0da0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clothesRb: {fileID: 346839014}
+  isclothesLine: 0
+  otherClothesLine: {fileID: 401590446}
 --- !u!1 &364046894
 GameObject:
   m_ObjectHideFlags: 0
@@ -1835,6 +1838,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0cd21898020152458839f136a2e0da0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clothesRb: {fileID: 401590448}
+  isclothesLine: 0
+  otherClothesLine: {fileID: 346839020}
 --- !u!65 &401590447
 BoxCollider:
   m_ObjectHideFlags: 0
