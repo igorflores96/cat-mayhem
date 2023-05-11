@@ -7,7 +7,7 @@ public class CircleRenderer : MonoBehaviour
     [SerializeField] private Color color;
     [SerializeField] private float heightOffset = 0.1f;
     private float radius = 1f;
-    public rayCastGun laserScript;
+    public RayCastGun laserScript;
     public CatMovement catScript;
 
 

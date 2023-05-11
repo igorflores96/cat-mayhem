@@ -6,7 +6,7 @@ using UnityEngine.AI;
 
 public class NanaMovement : MonoBehaviour
 {
-    public NavMeshAgent agent;
+    private NavMeshAgent agent;
     public float range;
     public Transform centrePoint;
 
@@ -73,18 +73,19 @@ public class NanaMovement : MonoBehaviour
                 float distanceToTarget = Vector3.Distance(transform.position, target.position);
 
 
-                if (!Physics.Raycast(transform.position, directionToTarget, distanceToTarget, obstructionMask)) //se o gato é visto pela avó
+                if (!Physics.Raycast(transform.position, directionToTarget, distanceToTarget, obstructionMask))//se o gato é visto pela avó
                 {
-                    chaseBrokenObject = false;
                     canSeePlayer = true;
-                }
+                    chaseBrokenObject = false;
+                }             
                 else
-                    canSeePlayer = false;                    
+                {
+                    canSeePlayer = false;
+                }
             }
             else //gato sai da visão da avó normalmente
             {
                 canSeePlayer = false;
-                nanaReturnToSafe = true;
             }
         }
         else if (canSeePlayer)

@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class CatMovement : MonoBehaviour
 {
 	public LayerMask groundLayer;
-	public rayCastGun laserScript;
+	public RayCastGun laserScript;
 	private NavMeshAgent agent;
 	private Animator catAnimation;
 	private Rigidbody catRigidBody;

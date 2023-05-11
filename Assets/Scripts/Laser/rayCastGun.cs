@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(LineRenderer))]
-public class rayCastGun : MonoBehaviour
+public class RayCastGun : MonoBehaviour
 {
 
     [Header("Atribuições de Objetos")]

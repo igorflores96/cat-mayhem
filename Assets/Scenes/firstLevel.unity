@@ -4094,7 +4094,7 @@ MonoBehaviour:
   laserObject: {fileID: 918294036}
   maskLayer:
     serializedVersion: 2
-    m_Bits: 2147483647
+    m_Bits: 256
   currentLaser: 0
   useLaserBlue: 1
 --- !u!120 &918294038
@@ -4337,7 +4337,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7221286485295721334, guid: b05c1a46862e3e84d9dbc2d33af5131b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.66
+      value: 0.59
       objectReference: {fileID: 0}
     - target: {fileID: 7221286485295721334, guid: b05c1a46862e3e84d9dbc2d33af5131b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4345,7 +4345,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7221286485295721334, guid: b05c1a46862e3e84d9dbc2d33af5131b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.43
+      value: 1.93
       objectReference: {fileID: 0}
     - target: {fileID: 7221286485295721334, guid: b05c1a46862e3e84d9dbc2d33af5131b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4624,12 +4624,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25b10e7c6f194945a14ddf8c041a68e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 0}
   range: 6
   centrePoint: {fileID: 979645940}
   winConditionsScript: {fileID: 1623911103}
   player: {fileID: 1877638245}
-  radius: 4
+  radius: 5
   angle: 90
   canSeePlayer: 0
   targetMask:
@@ -4864,7 +4863,7 @@ GameObject:
   - component: {fileID: 979645938}
   - component: {fileID: 979645937}
   - component: {fileID: 979645941}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6577,8 +6576,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1583251896}
   m_LocalRotation: {x: -0, y: 0.6042505, z: -0, w: 0.7967945}
-  m_LocalPosition: {x: 1.463, y: 1.226, z: 1.93}
-  m_LocalScale: {x: 0.16479401, y: 1.3152231, z: 3}
+  m_LocalPosition: {x: 1.23, y: 1.06, z: 2.77}
+  m_LocalScale: {x: 0.16479401, y: 0.9550361, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2106002174}
