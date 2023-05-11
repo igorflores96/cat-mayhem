@@ -7,8 +7,6 @@ using UnityEngine.AI;
 public class NanaMovement : MonoBehaviour
 {
     private NavMeshAgent agent;
-    public float range;
-    public Transform centrePoint;
 
     public WinConditions winConditionsScript;
     public GameObject player;
