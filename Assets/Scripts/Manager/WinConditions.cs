@@ -31,7 +31,7 @@ public class WinConditions : MonoBehaviour
 
         lerpSpeedBar = 3f * Time.deltaTime;
 
-        caosCountText.text = "Barra de caos em: ";
+        caosCountText.text = "Caos Count";
 
         if (catObject.GetComponent<CatColissions>().isCatch)
         {

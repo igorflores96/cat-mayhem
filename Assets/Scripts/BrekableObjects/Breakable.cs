@@ -7,7 +7,7 @@ public class Breakable : MonoBehaviour
 
     public GameObject fractured;
     public MeshRenderer objectDestroyed;
-    float breakforce = 2.2f;
+    public float breakforce = 2.2f;
 
     void Update()
     {

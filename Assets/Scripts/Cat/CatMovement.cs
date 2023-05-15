@@ -65,7 +65,7 @@ public class CatMovement : MonoBehaviour
 					catAnimation.SetInteger("transition", 1);
 					agent.SetDestination(hit.point);
 				}
-				else if ((distance <= radius + 0.3f) && laserScript.currentLaser == LasersTypes.laserBlue && !hasJumped)
+				else if (distance <= radius && laserScript.currentLaser == LasersTypes.laserBlue && !hasJumped)
                 {
 					JumpToClick();
 					catAnimation.SetInteger("transition", 2);
@@ -93,7 +93,6 @@ public class CatMovement : MonoBehaviour
 			agent.enabled = false;
 			Invoke("ResetHasJumped", resetTimeJump);
 			Invoke("ResetAgent", resetTimeJump);
-
 		}
 
 	}
