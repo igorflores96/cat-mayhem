@@ -29,11 +29,11 @@ public class CircleRenderer : MonoBehaviour
     {
         if (laserScript.currentLaser == LasersTypes.laserRed)
         {
-            radius = catScript.radius * 3.5f;
+            radius = catScript.radius * 2f;
         }
         else if (laserScript.currentLaser == LasersTypes.laserBlue)
         {
-           radius = catScript.radius * 3.5f;
+           radius = catScript.radius * 2f;
 
         }
 
