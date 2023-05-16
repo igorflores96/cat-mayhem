@@ -15,6 +15,7 @@ public class CatMovement : MonoBehaviour
 	[SerializeField] private float jumpForce = 5f;
 	[SerializeField] private float resetTimeJump;
 	[SerializeField] private float resetAgent;
+	[SerializeField] Transform _initialJumpLocal;
 
 	public float radius;
 
@@ -26,6 +27,8 @@ public class CatMovement : MonoBehaviour
 		agent = GetComponent<NavMeshAgent>();
 		catAnimation = GetComponent<Animator>();
 		catRigidBody = GetComponent<Rigidbody>();
+		Invoke("JumpStart", 0.2f);
+
 	}
 
     private void Update()
@@ -95,6 +98,15 @@ public class CatMovement : MonoBehaviour
 			Invoke("ResetAgent", resetTimeJump);
 		}
 
+	}
+
+	private void JumpStart()
+    {
+		Vector3 _inicialJump = _initialJumpLocal.position - transform.position;
+		_inicialJump.y = 3f;
+		catRigidBody.AddForce(_inicialJump.normalized * jumpForce, ForceMode.Impulse);
+		agent.enabled = false;
+		Invoke("ResetAgent", resetTimeJump);
 	}
 
 	private void ResetAgent()
