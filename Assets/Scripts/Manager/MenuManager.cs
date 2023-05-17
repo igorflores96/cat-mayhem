@@ -9,12 +9,6 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene((int)ScenesNames.gameScene);
     }
-
-    public void InstructionsIsCliked()
-    {
-        SceneManager.LoadScene((int)ScenesNames.creditsScene);
-    }
-
     public void MenuIsClicked()
     {
         SceneManager.LoadScene((int)ScenesNames.mainMenuScene);
