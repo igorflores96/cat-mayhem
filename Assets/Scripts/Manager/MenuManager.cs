@@ -7,17 +7,15 @@ public class MenuManager : MonoBehaviour
 {
     public void PlayIsClicked()
     {
-        SceneManager.LoadScene((int)ScenesNames.gameScene);
+        SceneManager.LoadScene("Level1");
     }
     public void MenuIsClicked()
     {
-        SceneManager.LoadScene((int)ScenesNames.mainMenuScene);
-
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void QuitIsClicked()
     {
-        Debug.Log("Saiu do jogo.");
         Application.Quit();
     }
 }
