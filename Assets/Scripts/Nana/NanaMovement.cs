@@ -141,10 +141,14 @@ public class NanaMovement : MonoBehaviour
         else if (chaseBrokenObject)
         {
             agent.SetDestination(currentBrokenObject);
+            Debug.Log("R" + Mathf.Round(agent.remainingDistance));
+            Debug.Log("S" + agent.stoppingDistance);
+            Debug.Log(safePointNana.transform.position);
             if (agent.remainingDistance <= agent.stoppingDistance)
             {
                 chaseBrokenObject = false;
                 nanaReturnToSafe = true;
+                Debug.Log("");
             }
 
         }
