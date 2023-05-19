@@ -10,6 +10,8 @@ public class NanaMovement : MonoBehaviour
 
     public WinConditions winConditionsScript;
     public GameObject player;
+
+    [Header("Visão da avó")]
     public float radius;
     [Range(0, 360)]
     public float angle;
@@ -17,8 +19,12 @@ public class NanaMovement : MonoBehaviour
     public LayerMask targetMask;
     public LayerMask obstructionMask;
 
+    [Header("Rota da avó")]
     public GameObject safePointNana;
     public GameObject[] routPoints;
+    [SerializeField] private float stopDistanceGap;
+
+
     private GameObject[] objectsForChase;
     private bool[] checkBrokenObject;
     private int currentRoutPoint;
@@ -115,6 +121,8 @@ public class NanaMovement : MonoBehaviour
 
     private void MovementNana()
     {
+        agent.stoppingDistance = stopDistanceGap; //Pra ter certeza que ela vai alcançar todos os pontos de rota/safe points no terreno.
+
         if (nanaReturnToSafe)
         {
             agent.speed = 0.7f;
@@ -150,6 +158,7 @@ public class NanaMovement : MonoBehaviour
         }
         else
         {
+            agent.stoppingDistance = 0f; // pra ter certeza de que ela vai chegar até a posição do gato.
             agent.SetDestination(player.transform.position);
             agent.speed = 2.1f;      
         }
