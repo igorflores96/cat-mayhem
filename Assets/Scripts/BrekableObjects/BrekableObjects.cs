@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class BrekableObjects : MonoBehaviour
 {
@@ -9,13 +10,17 @@ public class BrekableObjects : MonoBehaviour
     [SerializeField] private bool isDestructable = false;
     [SerializeField] private Breakable scriptDestruction;
 
+    public UnityEvent OnBrokenObject;
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Player" && !isBroken)
         {
             isBroken = true;
 
-            if(isDestructable == true)
+            OnBrokenObject?.Invoke();
+
+            if (isDestructable == true)
             {
                 scriptDestruction.BreakTheThing();
             }

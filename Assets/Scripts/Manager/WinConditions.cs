@@ -13,7 +13,7 @@ public class WinConditions : MonoBehaviour
 
 
     [Header("Canvas Settings")]
-    public TextMeshProUGUI caosCountText;
+    //public TextMeshProUGUI caosCountText;
     public Image caosBar;
 
     private float caosCount;
@@ -31,7 +31,7 @@ public class WinConditions : MonoBehaviour
 
         lerpSpeedBar = 3f * Time.deltaTime;
 
-        caosCountText.text = "Caos Count";
+        //caosCountText.text = "Caos Count";
 
         if (catObject.GetComponent<CatColissions>().isCatch)
         {
@@ -39,7 +39,7 @@ public class WinConditions : MonoBehaviour
         }
         else if(caosCount == brokenObjectsInScene.Length)
         {
-            SceneManager.LoadScene((int)ScenesNames.winScene);
+            Invoke("ChangeScene", 0.2f); //Para fazer o som sair corretamente do último objeto quebrado.
         }
 
 
@@ -57,6 +57,11 @@ public class WinConditions : MonoBehaviour
     void CaosBarFiller()
     {
         caosBar.fillAmount = Mathf.Lerp(caosBar.fillAmount, caosCount / brokenObjectsInScene.Length, lerpSpeedBar);
+    }
+
+    private void ChangeScene()
+    {
+        SceneManager.LoadScene((int)ScenesNames.winScene);
     }
 
 }
