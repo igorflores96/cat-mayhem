@@ -149,9 +149,6 @@ public class NanaMovement : MonoBehaviour
         else if (chaseBrokenObject)
         {
             agent.SetDestination(currentBrokenObject);
-            Debug.Log("R" + Mathf.Round(agent.remainingDistance));
-            Debug.Log("S" + agent.stoppingDistance);
-            Debug.Log(safePointNana.transform.position);
             if (agent.remainingDistance <= agent.stoppingDistance)
             {
                 chaseBrokenObject = false;
@@ -164,7 +161,7 @@ public class NanaMovement : MonoBehaviour
         {
             agent.stoppingDistance = 0f; // pra ter certeza de que ela vai chegar até a posição do gato.
             agent.SetDestination(player.transform.position);
-            agent.speed = 2.1f;      
+            agent.speed = 1.6f;      
         }
     }
 

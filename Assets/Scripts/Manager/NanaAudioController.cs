@@ -9,10 +9,11 @@ public class NanaAudioController : MonoBehaviour
     public Vector3 minScale;
     public Vector3 maxScale;
     public AudioLoudnessDetection detector;
+    public bool audioIsActive = false;
     public float loudnessSensibility = 100;
     public float limit = 0.1f;
     private bool canStunNana = false;
-
+    
     private NanaMovement nanaScript;
 
     private void Awake()
@@ -22,7 +23,7 @@ public class NanaAudioController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.C))
+        if (Input.GetKey(KeyCode.C) && audioIsActive)
         {
             float loudness = detector.GetLoudnessMicrophone() * loudnessSensibility;
 
