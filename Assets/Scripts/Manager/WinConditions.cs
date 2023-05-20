@@ -39,7 +39,7 @@ public class WinConditions : MonoBehaviour
         }
         else if(caosCount == brokenObjectsInScene.Length)
         {
-            SceneManager.LoadScene((int)ScenesNames.winScene);
+            Invoke("ChangeScene", 0.2f); //Para fazer o som sair corretamente do último objeto quebrado.
         }
 
 
@@ -57,6 +57,11 @@ public class WinConditions : MonoBehaviour
     void CaosBarFiller()
     {
         caosBar.fillAmount = Mathf.Lerp(caosBar.fillAmount, caosCount / brokenObjectsInScene.Length, lerpSpeedBar);
+    }
+
+    private void ChangeScene()
+    {
+        SceneManager.LoadScene((int)ScenesNames.winScene);
     }
 
 }

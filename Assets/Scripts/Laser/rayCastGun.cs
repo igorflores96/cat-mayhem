@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(LineRenderer))]
 public class RayCastGun : MonoBehaviour
@@ -16,6 +17,8 @@ public class RayCastGun : MonoBehaviour
     public LasersTypes currentLaser;
 
     public bool useLaserBlue = false;
+
+    public UnityEvent OnClickLaser;
 
 
     private LineRenderer laserLine;
@@ -54,8 +57,15 @@ public class RayCastGun : MonoBehaviour
 
     private void LaserFire()
     {
+
+        if(Input.GetMouseButtonDown(0))
+        {
+            OnClickLaser?.Invoke();
+        }
+
         if (Input.GetMouseButton(0))
         {
+            
             laserLine.enabled = true;
             laserLine.SetPosition(0, laserOrigin.position);
             Ray rayCameraToMouse = playerCamera.ScreenPointToRay(Input.mousePosition);

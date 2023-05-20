@@ -234,6 +234,21 @@ MonoBehaviour:
   clothes: {fileID: 13437008}
   isDestructable: 0
   scriptDestruction: {fileID: 0}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 2356f38599423f54cb686fd3a96086cc, type: 2}
+        m_TargetAssemblyTypeName: GameEvent, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!65 &13437010
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -852,6 +867,21 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 0
   scriptDestruction: {fileID: 534496621}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 69eea0a6bee73d040b862371517dc154, type: 2}
+        m_TargetAssemblyTypeName: GameEvent, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &534496621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1129,6 +1159,21 @@ MonoBehaviour:
   clothes: {fileID: 832297372}
   isDestructable: 0
   scriptDestruction: {fileID: 0}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 58e17417585c8504893ff62451625b63, type: 2}
+        m_TargetAssemblyTypeName: GameEvent, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!65 &832297374
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1660,6 +1705,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 0
   scriptDestruction: {fileID: 1102216898}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1102216898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2192,6 +2240,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 1419160915}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1419160915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2535,6 +2586,21 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 0
   scriptDestruction: {fileID: 1489723208}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 69eea0a6bee73d040b862371517dc154, type: 2}
+        m_TargetAssemblyTypeName: GameEvent, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!65 &1489723210
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3159,6 +3225,21 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 1909053581}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 938354db55ee66845a02b38cb6a22c15, type: 2}
+        m_TargetAssemblyTypeName: GameEvent, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1909053581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3423,6 +3504,21 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 0
   scriptDestruction: {fileID: 2043307169}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 58e17417585c8504893ff62451625b63, type: 2}
+        m_TargetAssemblyTypeName: GameEvent, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2046181781
 GameObject:
   m_ObjectHideFlags: 0
@@ -3715,6 +3811,21 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 2081404231}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 938354db55ee66845a02b38cb6a22c15, type: 2}
+        m_TargetAssemblyTypeName: GameEvent, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2081404231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4230,6 +4341,21 @@ MonoBehaviour:
   resetTimeJump: 0.8
   resetAgent: 0.3
   _initialJumpLocal: {fileID: 1028347906}
+  OnCatStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 6aaf403a55a71e24e8df9ea22e6f80f0, type: 2}
+        m_TargetAssemblyTypeName: GameEvent, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   radius: 1.2
 --- !u!195 &4300540515534150769
 NavMeshAgent:
@@ -5063,6 +5189,9 @@ MonoBehaviour:
     m_Bits: 256
   currentLaser: 0
   useLaserBlue: 0
+  OnClickLaser:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &7211719716774712896
 Transform:
   m_ObjectHideFlags: 0

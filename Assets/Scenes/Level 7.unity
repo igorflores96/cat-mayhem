@@ -325,6 +325,21 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 0
   scriptDestruction: {fileID: 288681229}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 58e17417585c8504893ff62451625b63, type: 2}
+        m_TargetAssemblyTypeName: GameEvent, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &288681229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1245,6 +1260,21 @@ MonoBehaviour:
   clothes: {fileID: 1773322314}
   isDestructable: 0
   scriptDestruction: {fileID: 0}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 2356f38599423f54cb686fd3a96086cc, type: 2}
+        m_TargetAssemblyTypeName: GameEvent, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!65 &1773322316
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1530,6 +1560,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 0
   scriptDestruction: {fileID: 1921716575}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1921716575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2439,6 +2472,9 @@ MonoBehaviour:
   resetTimeJump: 0.8
   resetAgent: 0.3
   _initialJumpLocal: {fileID: 1028347906}
+  OnCatStart:
+    m_PersistentCalls:
+      m_Calls: []
   radius: 1.2
 --- !u!195 &4300540515534150769
 NavMeshAgent:
@@ -2919,6 +2955,9 @@ MonoBehaviour:
     m_Bits: 256
   currentLaser: 0
   useLaserBlue: 1
+  OnClickLaser:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &7211719716774712896
 Transform:
   m_ObjectHideFlags: 0

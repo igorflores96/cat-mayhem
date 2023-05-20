@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
 
 public class CatMovement : MonoBehaviour
 {
@@ -17,6 +18,8 @@ public class CatMovement : MonoBehaviour
 	[SerializeField] private float resetAgent;
 	[SerializeField] Transform _initialJumpLocal;
 
+	public UnityEvent OnCatStart;
+
 	public float radius;
 
 
@@ -27,6 +30,7 @@ public class CatMovement : MonoBehaviour
 		agent = GetComponent<NavMeshAgent>();
 		catAnimation = GetComponent<Animator>();
 		catRigidBody = GetComponent<Rigidbody>();
+		OnCatStart?.Invoke();
 		Invoke("JumpStart", 0.2f);
 
 	}
