@@ -153,6 +153,7 @@ public class NanaMovement : MonoBehaviour
             {
                 chaseBrokenObject = false;
                 nanaReturnToSafe = true;
+                Debug.Log("");
             }
 
         }
@@ -160,7 +161,7 @@ public class NanaMovement : MonoBehaviour
         {
             agent.stoppingDistance = 0f; // pra ter certeza de que ela vai chegar até a posição do gato.
             agent.SetDestination(player.transform.position);
-            agent.speed = 2.1f;      
+            agent.speed = 1.6f;      
         }
     }
 
