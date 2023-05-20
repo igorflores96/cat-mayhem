@@ -13,7 +13,7 @@ public class WinConditions : MonoBehaviour
 
 
     [Header("Canvas Settings")]
-    public TextMeshProUGUI caosCountText;
+    //public TextMeshProUGUI caosCountText;
     public Image caosBar;
 
     private float caosCount;
@@ -31,7 +31,7 @@ public class WinConditions : MonoBehaviour
 
         lerpSpeedBar = 3f * Time.deltaTime;
 
-        caosCountText.text = "Caos Count";
+        //caosCountText.text = "Caos Count";
 
         if (catObject.GetComponent<CatColissions>().isCatch)
         {
