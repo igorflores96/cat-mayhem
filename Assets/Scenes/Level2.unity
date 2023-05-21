@@ -295,6 +295,10 @@ PrefabInstance:
       propertyPath: laserScript
       value: 
       objectReference: {fileID: 7178620857011553034}
+    - target: {fileID: 5949994682086634777, guid: 9830fc520d076f740a048d41a1abdbbc, type: 3}
+      propertyPath: OnCatStart.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Raise
+      objectReference: {fileID: 0}
     - target: {fileID: 5949994682086634780, guid: 9830fc520d076f740a048d41a1abdbbc, type: 3}
       propertyPath: laserScript
       value: 

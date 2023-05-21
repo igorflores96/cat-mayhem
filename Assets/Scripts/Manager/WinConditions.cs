@@ -35,7 +35,7 @@ public class WinConditions : MonoBehaviour
 
         if (catObject.GetComponent<CatColissions>().isCatch)
         {
-            SceneManager.LoadScene((int)ScenesNames.loseScene);
+            SceneManager.LoadScene("loseScreen");
         }
         else if(caosCount == brokenObjectsInScene.Length)
         {
@@ -61,7 +61,7 @@ public class WinConditions : MonoBehaviour
 
     private void ChangeScene()
     {
-        SceneManager.LoadScene((int)ScenesNames.winScene);
+        SceneManager.LoadScene("WinScreen");
     }
 
 }

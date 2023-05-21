@@ -60,7 +60,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5642061491450330114}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0391, y: -0.0108, z: 0.0619}
+  m_LocalPosition: {x: 0.0391, y: 0.0396, z: 0.0619}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -237,6 +237,9 @@ MonoBehaviour:
     m_Bits: 256
   currentLaser: 0
   useLaserBlue: 1
+  OnClickLaser:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &4795710013107942384
 MonoBehaviour:
   m_ObjectHideFlags: 0
