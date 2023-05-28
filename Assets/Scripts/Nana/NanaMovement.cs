@@ -153,7 +153,6 @@ public class NanaMovement : MonoBehaviour
             {
                 chaseBrokenObject = false;
                 nanaReturnToSafe = true;
-                Debug.Log("");
             }
 
         }

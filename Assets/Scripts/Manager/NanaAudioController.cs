@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
 
 public class NanaAudioController : MonoBehaviour
 {
@@ -9,32 +10,25 @@ public class NanaAudioController : MonoBehaviour
     public Vector3 minScale;
     public Vector3 maxScale;
     public AudioLoudnessDetection detector;
-    public bool audioIsActive = false;
     public float loudnessSensibility = 100;
     public float limit = 0.1f;
     private bool canStunNana = false;
-    
-    private NanaMovement nanaScript;
 
-    private void Awake()
-    {
-        nanaScript = GetComponent<NanaMovement>();
-    }
+    public UnityEvent OnNanaStun;
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.C) && audioIsActive)
+        if (Input.GetKey(KeyCode.C))
         {
             float loudness = detector.GetLoudnessMicrophone() * loudnessSensibility;
 
             if (loudness < limit)
             {
-                Debug.Log(loudness);
                 loudness = 0;
             }
             else if(canStunNana)
             {
-                nanaScript.NanaCantMove();
+                OnNanaStun?.Invoke();
             }
         }
     }

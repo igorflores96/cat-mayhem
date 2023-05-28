@@ -6,46 +6,38 @@ using TMPro;
 public class NanaTimer : MonoBehaviour
 {
     [Header("Timer Settings")]
-    public float currentTime;
-    public float maxStunTime = 0f;
-    public float stunTimeGap = 0f;
-    public float stunCurrentTime = 0f;
+    public float maxOfStunTime = 0f;
+    public FloatReference CooldownStunTime;
 
     [Header("Objects Settings")]
     public NanaMovement nanaAgent;
     public NanaAudioController nanaSound;
 
-    [Header("Canvas Settings")]
-    public TextMeshProUGUI textStun;
-    public TextMeshProUGUI textTimerStun;
-
+    private float freeNanaTimer;
+    private float currentTimeOfStun = 0f;
 
     // Update is called once per frame
     void Update()
     {
-
-        textStun.text = "Pode Stunar: " + nanaSound.getNanaStunStatus().ToString();
-        textTimerStun.text = "Contagem Tempo Stun: " + stunCurrentTime.ToString("0.0");
-
         if (nanaAgent.NanaIsStopped())
         {
-            currentTime += Time.deltaTime;
-            
-            if (currentTime > maxStunTime)
+            freeNanaTimer += Time.deltaTime;
+            nanaSound.setNanaStunFalse();
+
+            if (freeNanaTimer > maxOfStunTime)
             {
-                currentTime = 0f;
-                nanaSound.setNanaStunFalse();
+                freeNanaTimer = 0f;         
                 nanaAgent.NanaCanMove();
             }
         }
 
-        if(stunCurrentTime < stunTimeGap && !nanaSound.getNanaStunStatus())
+        if(currentTimeOfStun < CooldownStunTime.Value && !nanaSound.getNanaStunStatus())
         {
-            stunCurrentTime += Time.deltaTime;
+            currentTimeOfStun += Time.deltaTime;
         }
         else
         {
-            stunCurrentTime = 0;
+            currentTimeOfStun = 0;
             nanaSound.setNanaStunTrue();
         }
     }

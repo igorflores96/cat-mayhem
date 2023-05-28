@@ -294,6 +294,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 93437018}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &93437016
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -465,6 +468,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 109277859}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &109277857
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -612,6 +618,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 139302215}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &139302213
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -783,6 +792,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 226497489}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &226497487
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -930,7 +942,7 @@ RectTransform:
   - {fileID: 716702984}
   - {fileID: 942019677}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1097,6 +1109,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 300531231}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &300531229
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1376,6 +1391,9 @@ MonoBehaviour:
   clothes: {fileID: 346839020}
   isDestructable: 0
   scriptDestruction: {fileID: 0}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &346839016
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1465,7 +1483,7 @@ Transform:
   - {fileID: 708570154}
   - {fileID: 93437014}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &401590444
 PrefabInstance:
@@ -1600,6 +1618,9 @@ MonoBehaviour:
   clothes: {fileID: 401590446}
   isDestructable: 0
   scriptDestruction: {fileID: 0}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &401590452 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0f5293b338f9c71449216610049f0d38, type: 3}
@@ -1630,6 +1651,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 416257209}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &416257207
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1704,6 +1728,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 458587787}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &458587785
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1924,6 +1951,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 517869045}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &517869043
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2698,6 +2728,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 689609703}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &689609701
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2839,7 +2872,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &708570153 stripped
 GameObject:
@@ -2866,6 +2899,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 708570158}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &708570156
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3016,6 +3052,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 741107681}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &741107679
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3090,6 +3129,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 785381350}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &785381348
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3268,6 +3310,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 0
   scriptDestruction: {fileID: 0}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &847010323
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3522,11 +3567,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 894530687}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &896561896 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6018786158171924730, guid: e6639de6ea74454428f272fa18476518, type: 3}
-  m_PrefabInstance: {fileID: 1460670173}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &906353473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3631,17 +3671,6 @@ Transform:
   m_Father: {fileID: 1471130913}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &918294037 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4795710013107942386, guid: 13e30ca5848150e479371d95d4ff7e06, type: 3}
-  m_PrefabInstance: {fileID: 4795710012949872103}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fcdd0e2f6c20b2459710cf0405dc812, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &926215741
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3812,6 +3841,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 950203018}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &950203016
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3944,7 +3976,7 @@ Transform:
   m_Children:
   - {fileID: 1793298210}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 46.891, y: 89.945, z: 0}
 --- !u!1 &978383735 stripped
 GameObject:
@@ -3966,6 +3998,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 978383742}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &978383737
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4950,6 +4985,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 1409870012}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &1409870010
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5024,6 +5062,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 1459476977}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &1459476975
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5073,71 +5114,6 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 347c6b9b70a410f44aac9e34c890dadf, type: 3}
   m_PrefabInstance: {fileID: 567998460}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1460670173
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3390360974603812317, guid: e6639de6ea74454428f272fa18476518, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3390360974603812317, guid: e6639de6ea74454428f272fa18476518, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.5576472
-      objectReference: {fileID: 0}
-    - target: {fileID: 3390360974603812317, guid: e6639de6ea74454428f272fa18476518, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.23999977
-      objectReference: {fileID: 0}
-    - target: {fileID: 3390360974603812317, guid: e6639de6ea74454428f272fa18476518, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 3.5171344
-      objectReference: {fileID: 0}
-    - target: {fileID: 3390360974603812317, guid: e6639de6ea74454428f272fa18476518, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9162371
-      objectReference: {fileID: 0}
-    - target: {fileID: 3390360974603812317, guid: e6639de6ea74454428f272fa18476518, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3390360974603812317, guid: e6639de6ea74454428f272fa18476518, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.40063658
-      objectReference: {fileID: 0}
-    - target: {fileID: 3390360974603812317, guid: e6639de6ea74454428f272fa18476518, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3390360974603812317, guid: e6639de6ea74454428f272fa18476518, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3390360974603812317, guid: e6639de6ea74454428f272fa18476518, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 47.236
-      objectReference: {fileID: 0}
-    - target: {fileID: 3390360974603812317, guid: e6639de6ea74454428f272fa18476518, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5421158143252071547, guid: e6639de6ea74454428f272fa18476518, type: 3}
-      propertyPath: laserScript
-      value: 
-      objectReference: {fileID: 918294037}
-    - target: {fileID: 5421158143252071550, guid: e6639de6ea74454428f272fa18476518, type: 3}
-      propertyPath: laserScript
-      value: 
-      objectReference: {fileID: 918294037}
-    - target: {fileID: 6018786158171924730, guid: e6639de6ea74454428f272fa18476518, type: 3}
-      propertyPath: m_Name
-      value: Cat
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e6639de6ea74454428f272fa18476518, type: 3}
 --- !u!1 &1464995769
 GameObject:
   m_ObjectHideFlags: 0
@@ -5300,7 +5276,7 @@ Transform:
   - {fileID: 1925308588}
   - {fileID: 794800359}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1483577174 stripped
 GameObject:
@@ -5327,6 +5303,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 1483577179}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &1483577177
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5498,6 +5477,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 1542373009}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &1542373007
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5895,7 +5877,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1619022765
 GameObject:
@@ -6045,7 +6027,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1623911103
 MonoBehaviour:
@@ -6059,7 +6041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64c31ff7c56277648a832c090fe5fe4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  catObject: {fileID: 896561896}
+  catObject: {fileID: 0}
   brokenObjectsInScene:
   - {fileID: 401590445}
   - {fileID: 346839013}
@@ -6070,7 +6052,6 @@ MonoBehaviour:
   - {fileID: 689609698}
   - {fileID: 1542373004}
   - {fileID: 978383735}
-  caosCountText: {fileID: 236928970}
   caosBar: {fileID: 942019678}
 --- !u!1 &1632235694
 GameObject:
@@ -6267,6 +6248,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 1696275564}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &1696275562
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6511,6 +6495,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 1761833152}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &1761833150
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6690,6 +6677,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 1829070571}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &1829070569
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6837,6 +6827,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 1843423114}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &1843423112
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6952,7 +6945,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1915294961
 PrefabInstance:
@@ -7083,6 +7076,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 0
   scriptDestruction: {fileID: 0}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &1930712758
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7703,7 +7699,7 @@ Transform:
   - {fileID: 2128437087}
   - {fileID: 2030155126}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2110277342
 PrefabInstance:
@@ -8094,6 +8090,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 2136682482}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &2136682480
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8304,7 +8303,7 @@ PrefabInstance:
     - target: {fileID: 6024663877931585793, guid: a93cd2b1062eda4488211f85f61de946, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 896561896}
+      objectReference: {fileID: 0}
     - target: {fileID: 6024663877931585793, guid: a93cd2b1062eda4488211f85f61de946, type: 3}
       propertyPath: safePointNana
       value: 

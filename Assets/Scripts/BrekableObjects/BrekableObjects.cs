@@ -6,7 +6,13 @@ using UnityEngine.Events;
 public class BrekableObjects : MonoBehaviour
 {
     private bool isBroken = false;
+
+
+    [Header("Colocar se for roupas")]
     [SerializeField] private ClothesLine clothes = null;
+
+
+    [Header("Só se for Destrutível")]
     [SerializeField] private bool isDestructable = false;
     [SerializeField] private Breakable scriptDestruction;
 

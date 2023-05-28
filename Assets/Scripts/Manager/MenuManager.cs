@@ -5,25 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
-    [SerializeField]
-    private IntReference CurrentLevel;
 
+    private int currentLevel;
     public void PlayIsClicked()
     {
-        CurrentLevel.Value = 1;
-        SceneManager.LoadScene((int)CurrentLevel.Value);
-        CurrentLevel.Value++;
+        
+       SceneManager.LoadScene("LevelSelect");
+
     }
 
-    public void NextLevel()
+    public void ChooseLevel(int LevelSelected)
     {
-        SceneManager.LoadScene((int)CurrentLevel.Value);
-        CurrentLevel.Value++;
+        currentLevel = LevelSelected;
+        SceneManager.LoadScene(LevelSelected);
     }
 
     public void PlayAgain()
     {
-        SceneManager.LoadScene((int)CurrentLevel.Value);
+        SceneManager.LoadScene(currentLevel);
     }
     public void MenuIsClicked()
     {
