@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
 
 
 public class NanaMovement : MonoBehaviour
@@ -33,6 +34,10 @@ public class NanaMovement : MonoBehaviour
     private bool chaseBrokenObject = false;
     private bool nanaReturnToSafe = false;
     private Animator nanaAnimation;
+
+    public UnityEvent OnNanaHearObject;
+    public UnityEvent OnNanaSeeinCat;
+
 
 
     void Start()
@@ -81,6 +86,7 @@ public class NanaMovement : MonoBehaviour
                 {
                     canSeePlayer = true;
                     chaseBrokenObject = false;
+                    OnNanaSeeinCat?.Invoke();
                 }             
                 else
                 {
@@ -115,6 +121,7 @@ public class NanaMovement : MonoBehaviour
                 currentBrokenObject = objectsForChase[i].GetComponent<Transform>().position;
                 checkBrokenObject[i] = true;
                 chaseBrokenObject = true;
+                OnNanaHearObject?.Invoke();
             }
         }
     }
