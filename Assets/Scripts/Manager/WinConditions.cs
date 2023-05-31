@@ -39,7 +39,7 @@ public class WinConditions : MonoBehaviour
         }
         else if(caosCount == brokenObjectsInScene.Length)
         {
-            Invoke("ChangeScene", 0.2f); //Para fazer o som sair corretamente do último objeto quebrado.
+            Invoke("ChangeScene", 0.5f); //Para fazer o som sair corretamente do último objeto quebrado.
         }
 
 

@@ -131,6 +131,9 @@ MonoBehaviour:
   clothes: {fileID: 0}
   isDestructable: 1
   scriptDestruction: {fileID: 83361299836443416}
+  OnBrokenObject:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &83361299836443416
 MonoBehaviour:
   m_ObjectHideFlags: 0

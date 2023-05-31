@@ -17,6 +17,8 @@ public class BrekableObjects : MonoBehaviour
     [SerializeField] private Breakable scriptDestruction;
 
     public UnityEvent OnBrokenObject;
+    public UnityEvent OnParticlesActive;
+
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -25,6 +27,7 @@ public class BrekableObjects : MonoBehaviour
             isBroken = true;
 
             OnBrokenObject?.Invoke();
+            OnParticlesActive?.Invoke();
 
             if (isDestructable == true)
             {

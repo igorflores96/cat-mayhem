@@ -17,6 +17,7 @@ public class CatMovement : MonoBehaviour
 	[SerializeField] private float resetTimeJump;
 	[SerializeField] private float resetAgent;
 	[SerializeField] Transform _initialJumpLocal;
+	[SerializeField] GameObject _dustParticle;
 
 	public UnityEvent OnCatStart;
 
@@ -41,7 +42,7 @@ public class CatMovement : MonoBehaviour
 
 		if (Input.GetMouseButton(0))
 		{
-
+			_dustParticle.SetActive(true);
 			SetTypeMovement(screenRay);
 		}
 		else
@@ -74,6 +75,7 @@ public class CatMovement : MonoBehaviour
 				}
 				else if (distance <= radius && laserScript.currentLaser == LasersTypes.laserBlue && !hasJumped)
                 {
+					_dustParticle.SetActive(false);
 					JumpToClick();
 					catAnimation.SetInteger("transition", 2);
 					hasJumped = true;
@@ -106,6 +108,7 @@ public class CatMovement : MonoBehaviour
 
 	private void JumpStart()
     {
+		_dustParticle.SetActive(false);
 		Vector3 _inicialJump = _initialJumpLocal.position - transform.position;
 		_inicialJump.y = 3f;
 		catRigidBody.AddForce(_inicialJump.normalized * jumpForce, ForceMode.Impulse);
