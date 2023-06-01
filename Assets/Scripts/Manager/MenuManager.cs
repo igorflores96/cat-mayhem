@@ -8,10 +8,8 @@ public class MenuManager : MonoBehaviour
 
     private int currentLevel;
     public void PlayIsClicked()
-    {
-        
+    {   
        SceneManager.LoadScene("LevelSelect");
-
     }
 
     public void ChooseLevel(int LevelSelected)
