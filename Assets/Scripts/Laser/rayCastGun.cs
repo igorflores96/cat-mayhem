@@ -34,8 +34,12 @@ public class RayCastGun : MonoBehaviour
 
     void Update()
     {
-        changeLaser();
-        LaserFire();
+        if(Time.timeScale != 0)
+        {
+            changeLaser();
+            LaserFire();
+        }
+
     }
 
     private void changeLaser()

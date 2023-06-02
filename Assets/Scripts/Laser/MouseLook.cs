@@ -12,7 +12,15 @@ public class MouseLook : MonoBehaviour
     }
     void Update()
     {
+        if(Time.deltaTime != 0)
+        {
+            LookAtMouse();
+        }
 
+    }
+
+    private void LookAtMouse()
+    {
         Ray screenRay = Camera.main.ScreenPointToRay(Input.mousePosition);
         if (Physics.Raycast(screenRay, out RaycastHit hit))
         {

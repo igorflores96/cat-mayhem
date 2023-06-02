@@ -6516,5 +6516,5 @@ MonoBehaviour:
   - {fileID: 1538201557}
   - {fileID: 522018633}
   - {fileID: 828659217}
-  HasUnlockedLevel: 01000000000000000000
+  HasUnlockedLevel: 01010101000000000000
   MenuButton: {fileID: 723105425}

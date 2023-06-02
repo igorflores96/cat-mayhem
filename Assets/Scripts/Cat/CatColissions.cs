@@ -1,16 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class CatColissions : MonoBehaviour
 {
-    public bool isCatch = false;
+    public UnityEvent OnCatIsCatch;
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Nana")
         {
-            Debug.Log("Avó pegou o gato!");
-            isCatch = true;
+            OnCatIsCatch?.Invoke();
         }
     }
 }

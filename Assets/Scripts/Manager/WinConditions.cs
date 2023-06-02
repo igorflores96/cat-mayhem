@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
@@ -8,50 +9,35 @@ using TMPro;
 public class WinConditions : MonoBehaviour
 {
     [Header("Objects")]
-    [SerializeField] private GameObject catObject;
     public GameObject[] brokenObjectsInScene;
 
-
     [Header("Canvas Settings")]
-    //public TextMeshProUGUI caosCountText;
     public Image caosBar;
 
     private float caosCount;
-    private bool[] objectCaosCount;
     private float lerpSpeedBar;
+
+    public UnityEvent OnWinLevel;
 
     private void Start()
     {
         caosCount = 0;
-        objectCaosCount = new bool[brokenObjectsInScene.Length];
     }
 
     private void Update()
     {
-
         lerpSpeedBar = 3f * Time.deltaTime;
-
-        //caosCountText.text = "Caos Count";
-
-        if (catObject.GetComponent<CatColissions>().isCatch)
-        {
-            SceneManager.LoadScene("loseScreen");
-        }
-        else if(caosCount == brokenObjectsInScene.Length)
-        {
-            Invoke("ChangeScene", 0.5f); //Para fazer o som sair corretamente do último objeto quebrado.
-        }
-
-
-        for (int i = 0; i < brokenObjectsInScene.Length; i++)
-        {
-            if (brokenObjectsInScene[i].GetComponent<BrekableObjects>().IsBrokenStatus() && objectCaosCount[i] == false)
-            {
-                objectCaosCount[i] = true;
-                caosCount++;
-            }
-        }
         CaosBarFiller();
+    }
+
+    public void CountCaos()
+    {
+        caosCount++;
+
+        if (caosCount == brokenObjectsInScene.Length)
+        {
+            OnWinLevel?.Invoke();
+        }
     }
 
     void CaosBarFiller()
@@ -63,5 +49,4 @@ public class WinConditions : MonoBehaviour
     {
         SceneManager.LoadScene("WinScreen");
     }
-
 }

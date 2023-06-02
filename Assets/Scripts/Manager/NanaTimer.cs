@@ -16,7 +16,6 @@ public class NanaTimer : MonoBehaviour
     private float freeNanaTimer;
     private float currentTimeOfStun = 0f;
 
-    // Update is called once per frame
     void Update()
     {
         if (nanaAgent.NanaIsStopped())
