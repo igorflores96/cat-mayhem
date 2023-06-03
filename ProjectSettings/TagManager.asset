@@ -8,6 +8,7 @@ TagManager:
   - Cat
   - Obstacles
   - Nana
+  - Coin
   layers:
   - Default
   - TransparentFX

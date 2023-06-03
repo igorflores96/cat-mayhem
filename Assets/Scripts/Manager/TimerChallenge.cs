@@ -1,29 +1,49 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class TimerChallenge : MonoBehaviour
+public class TimerChallenge : MonoBehaviour, IDataPersistence
 {
-    private float timeLevel;
-    void Start()
+    private float _timeLevel;
+    private bool _beatTheTime;
+    private string _sceneName;
+    void Awake()
     {
-        timeLevel = 0;   
+        _timeLevel = 0;
+        _beatTheTime = false;
+        _sceneName = SceneManager.GetActiveScene().name;
+    }
+
+    public void LoadData(GameData data)
+    {
+        data.LevelsTimerReached.TryGetValue(_sceneName, out _beatTheTime);
+        if(_beatTheTime)
+        {
+            _beatTheTime = true;
+        }
+    }
+
+    public void SaveData(GameData data)
+    {
+        if(data.LevelsTimerReached.ContainsKey(_sceneName))
+        {
+            data.LevelsTimerReached.Remove(_sceneName);
+        }
+
+        data.LevelsTimerReached.Add(_sceneName, _beatTheTime);
     }
 
     void Update()
     {
-        timeLevel += Time.deltaTime;
+        _timeLevel += Time.deltaTime;
     }
     public void CalculateTimer(float TimeToBeat)
     {
-        if(timeLevel <= TimeToBeat)
+        if(_timeLevel <= TimeToBeat)
         {
+            _beatTheTime = true;
             Debug.Log("Ganhou a insígnia.");
-        }
-        else
-        {
-            Debug.Log("Não ganhou a insígnia.");
-
         }
     }
 }

@@ -696,7 +696,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1858019572}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: NextLevel
+        m_MethodName: OnWinLevelIsClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

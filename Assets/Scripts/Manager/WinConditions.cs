@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
-public class WinConditions : MonoBehaviour
+public class WinConditions : MonoBehaviour, IDataPersistence
 {
     [Header("Objects")]
     public GameObject[] brokenObjectsInScene;
@@ -16,11 +16,37 @@ public class WinConditions : MonoBehaviour
 
     private float caosCount;
     private float lerpSpeedBar;
+    private int _sceneIndex;
 
     public UnityEvent OnWinLevel;
 
+    public void LoadData(GameData data)
+    {
+
+    }
+
+    public void SaveData(GameData data)
+    {
+
+        if (data.LevelsUnlocked.ContainsKey("Level" + _sceneIndex))
+        {
+            data.LevelsUnlocked.Remove("Level" + _sceneIndex);
+        }
+
+        data.LevelsUnlocked.Add("Level" + _sceneIndex, true);
+    }
+
+
+
     private void Start()
     {
+        _sceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+
+        if(SceneManager.GetActiveScene().buildIndex == 10)
+        {
+            _sceneIndex = 10;
+        }
+        
         caosCount = 0;
     }
 
@@ -36,7 +62,9 @@ public class WinConditions : MonoBehaviour
 
         if (caosCount == brokenObjectsInScene.Length)
         {
+            DataPersistenceManager._instance.SaveGame();
             OnWinLevel?.Invoke();
+            ChangeScene();
         }
     }
 
@@ -47,6 +75,6 @@ public class WinConditions : MonoBehaviour
 
     private void ChangeScene()
     {
-        SceneManager.LoadScene("WinScreen");
+        SceneManager.LoadSceneAsync("WinScreen");
     }
 }

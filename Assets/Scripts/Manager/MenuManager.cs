@@ -1,26 +1,41 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
+    [SerializeField]
+    private Button _continueButton;
 
-    private int currentLevel;
-    public void PlayIsClicked()
-    {   
-       SceneManager.LoadScene("LevelSelect");
+    private void Start()
+    {
+        if(!DataPersistenceManager._instance.HasGameData())
+        {
+            _continueButton.interactable = false;
+        }
+    }
+
+    public void OnConfirmeNewGame()
+    {
+        SceneManager.LoadSceneAsync("LevelSelect");
+        DataPersistenceManager._instance.NewGame();
+    }
+
+    public void OnContinueButtonIsClicked()
+    {
+        SceneManager.LoadSceneAsync("LevelSelect");
+    }
+
+    public void OnWinLevelIsClicked()
+    {
+        SceneManager.LoadSceneAsync("LevelSelect");
     }
 
     public void ChooseLevel(int LevelSelected)
     {
-        currentLevel = LevelSelected;
         SceneManager.LoadScene(LevelSelected);
-    }
-
-    public void PlayAgain()
-    {
-        SceneManager.LoadScene(currentLevel);
     }
     public void MenuIsClicked()
     {

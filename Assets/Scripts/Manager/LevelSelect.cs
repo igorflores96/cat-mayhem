@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class LevelSelect : MonoBehaviour
+public class LevelSelect : MonoBehaviour, IDataPersistence
 {
     [SerializeField]
     private Button[] ButtonsLeveis;
@@ -15,7 +15,27 @@ public class LevelSelect : MonoBehaviour
     [SerializeField]
     private Button MenuButton;
 
+    public void LoadData(GameData data)
+    {
+        for(int i = 0 + 1; i <= ButtonsLeveis.Length; i++)
+        {
+            data.LevelsUnlocked.TryGetValue("Level" + i.ToString(), out HasUnlockedLevel[i-1]);
+            if(HasUnlockedLevel[i-1])
+            {
+                ButtonsLeveis[i-1].interactable = true;
+            }
+            else
+            {
+                ButtonsLeveis[i-1].interactable = false;
+            }
+        }
 
+    }
+
+    public void SaveData(GameData data)
+    {
+
+    }
 
     private void Awake()
     {
@@ -30,18 +50,6 @@ public class LevelSelect : MonoBehaviour
         ButtonsLeveis[8].onClick.AddListener(OnButtonLevelNineClick);
         ButtonsLeveis[9].onClick.AddListener(OnButtonLevelTenClick);
         MenuButton.onClick.AddListener(OnButtonMenuClick);
-
-        for (int i = 0; i < ButtonsLeveis.Length; i++)
-        {
-            if(HasUnlockedLevel[i])
-            {
-                ButtonsLeveis[i].interactable = true;
-            }
-            else
-            {
-                ButtonsLeveis[i].interactable = false;
-            }
-        }
     }
 
     private void OnButtonLevelOneClick()
