@@ -43,7 +43,6 @@ public class TimerChallenge : MonoBehaviour, IDataPersistence
         if(_timeLevel <= TimeToBeat)
         {
             _beatTheTime = true;
-            Debug.Log("Ganhou a insígnia.");
         }
     }
 }

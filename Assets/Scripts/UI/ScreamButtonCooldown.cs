@@ -16,7 +16,7 @@ public class ScreamButtonCooldown : MonoBehaviour
     private void Awake()
     {
         countCooldown = true;
-        cooldownStunTime = cooldownStunTimeMax.Value;
+        cooldownStunTime = 0f;//cooldownStunTimeMax.Value;
     }
 
     // Update is called once per frame
@@ -26,7 +26,7 @@ public class ScreamButtonCooldown : MonoBehaviour
         {
             cooldownStunTime -= Time.deltaTime;
 
-            if(cooldownStunTime < 0f)
+            if(cooldownStunTime <= 0f)
             {
                 countCooldown = false;
                 iconImage.fillAmount = 0f;

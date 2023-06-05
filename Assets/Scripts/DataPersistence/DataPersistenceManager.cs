@@ -71,7 +71,6 @@ public class DataPersistenceManager : MonoBehaviour
         
         if(this._gameData == null)
         {
-            Debug.Log("Não foi encontrado um jogo, criando um do zero.");
             return;
         }
 

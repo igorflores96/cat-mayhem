@@ -33,13 +33,18 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadSceneAsync("LevelSelect");
     }
 
+    public void OnContinueLoseLevelIsClicked()
+    {
+        SceneManager.LoadSceneAsync("LevelSelect");
+    }
+
     public void ChooseLevel(int LevelSelected)
     {
         SceneManager.LoadScene(LevelSelected);
     }
     public void MenuIsClicked()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadSceneAsync("MainMenu");
     }
 
     public void QuitIsClicked()

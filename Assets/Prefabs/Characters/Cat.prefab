@@ -324,7 +324,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.5372549, g: 0.36862746, b: 0.21568629, a: 1}
+      maxColor: {r: 0.9622642, g: 0.9456028, b: 0.9304913, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -5276,7 +5276,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 747fb89a0ee31154abba34be7b13285e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCatch: 0
+  OnCatIsCatch:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCoinCollect:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCollisionOnBox:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &5949994682086634777
 MonoBehaviour:
   m_ObjectHideFlags: 0

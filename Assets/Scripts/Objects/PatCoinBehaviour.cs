@@ -9,6 +9,7 @@ public class PatCoinBehaviour : MonoBehaviour, IDataPersistence
     private int _sceneIndex;
 
     private bool _hasCollect;
+    private bool _saveCoin;
     public void LoadData(GameData data)
     {
         data.CoinCollect.TryGetValue("Level" + _sceneIndex, out _hasCollect);
@@ -21,7 +22,7 @@ public class PatCoinBehaviour : MonoBehaviour, IDataPersistence
 
     public void SaveData(GameData data)
     {
-        if(_hasCollect)
+        if(_saveCoin && _hasCollect)
         {
             if (data.CoinCollect.ContainsKey("Level" + _sceneIndex))
             {
@@ -48,5 +49,10 @@ public class PatCoinBehaviour : MonoBehaviour, IDataPersistence
     {
         _hasCollect = true;
         gameObject.SetActive(false);
+    }
+
+    public void OnCompleteLevel()
+    {
+        _saveCoin = true;
     }
 }

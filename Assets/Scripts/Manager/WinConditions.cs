@@ -17,6 +17,7 @@ public class WinConditions : MonoBehaviour, IDataPersistence
     private float caosCount;
     private float lerpSpeedBar;
     private int _sceneIndex;
+    private bool _levelComplete;
 
     public UnityEvent OnWinLevel;
 
@@ -27,13 +28,16 @@ public class WinConditions : MonoBehaviour, IDataPersistence
 
     public void SaveData(GameData data)
     {
-
-        if (data.LevelsUnlocked.ContainsKey("Level" + _sceneIndex))
+        if(_levelComplete)
         {
-            data.LevelsUnlocked.Remove("Level" + _sceneIndex);
+            if (data.LevelsUnlocked.ContainsKey("Level" + _sceneIndex))
+            {
+                data.LevelsUnlocked.Remove("Level" + _sceneIndex);
+            }
+
+            data.LevelsUnlocked.Add("Level" + _sceneIndex, true);
         }
 
-        data.LevelsUnlocked.Add("Level" + _sceneIndex, true);
     }
 
 
@@ -42,7 +46,7 @@ public class WinConditions : MonoBehaviour, IDataPersistence
     {
         _sceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
 
-        if(SceneManager.GetActiveScene().buildIndex == 10)
+        if(_sceneIndex == 11)//Temos no total 10 indexes, com mais um vai dar erro.
         {
             _sceneIndex = 10;
         }
@@ -62,7 +66,7 @@ public class WinConditions : MonoBehaviour, IDataPersistence
 
         if (caosCount == brokenObjectsInScene.Length)
         {
-            DataPersistenceManager._instance.SaveGame();
+            _levelComplete = true;
             OnWinLevel?.Invoke();
             ChangeScene();
         }
@@ -76,5 +80,11 @@ public class WinConditions : MonoBehaviour, IDataPersistence
     private void ChangeScene()
     {
         SceneManager.LoadSceneAsync("WinScreen");
+    }
+
+    public void OnLoseGame()
+    {
+        _levelComplete = false;
+        SceneManager.LoadSceneAsync("loseScreen");
     }
 }

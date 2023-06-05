@@ -14,7 +14,12 @@ public class NanaTimer : MonoBehaviour
     public NanaAudioController nanaSound;
 
     private float freeNanaTimer;
-    private float currentTimeOfStun = 0f;
+    private float currentTimeOfStun;
+
+    private void Awake()
+    {
+        currentTimeOfStun = CooldownStunTime.Value;
+    }
 
     void Update()
     {

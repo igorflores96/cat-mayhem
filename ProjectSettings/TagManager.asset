@@ -9,6 +9,7 @@ TagManager:
   - Obstacles
   - Nana
   - Coin
+  - PaperBox
   layers:
   - Default
   - TransparentFX
