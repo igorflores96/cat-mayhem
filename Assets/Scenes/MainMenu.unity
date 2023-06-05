@@ -3131,6 +3131,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7873986586985921764, guid: f29569ca7d6ec214194e3b54e0150875, type: 3}
+      propertyPath: _useEncryption
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7873986586985921765, guid: f29569ca7d6ec214194e3b54e0150875, type: 3}
       propertyPath: m_Name
       value: DataPersistenceManager

@@ -42,7 +42,7 @@ public class PatCoinBehaviour : MonoBehaviour, IDataPersistence
 
     void Update()
     {
-        transform.Rotate(new Vector3(0, 0, 0.1f));
+        transform.Rotate(new Vector3(0, 0, 0.4f));
     }
 
     public void CoinCollect()

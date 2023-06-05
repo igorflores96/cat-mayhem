@@ -68,7 +68,7 @@ public class WinConditions : MonoBehaviour, IDataPersistence
         {
             _levelComplete = true;
             OnWinLevel?.Invoke();
-            ChangeScene();
+            Invoke("ChangeScene", 0.5f);
         }
     }
 
