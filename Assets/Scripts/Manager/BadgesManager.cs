@@ -19,11 +19,18 @@ public class BadgesManager : MonoBehaviour, IDataPersistence
     [SerializeField]
     private Image[] _levelsCoinBadge;
 
+    [Header("Fire Badge")]
+    [SerializeField]
+    private Sprite _spriteFireUnblockedBadge;
+    [SerializeField]
+    private Image[] _levelsFireBadge;
+
 
 
 
     private bool _hasUnlockedTimerBadge;
     private bool _hasUnlockedCoinBadge;
+    private bool _hasBeatTheLevel;
 
 
     public void SaveData(GameData data)
@@ -33,27 +40,48 @@ public class BadgesManager : MonoBehaviour, IDataPersistence
 
     public void LoadData(GameData data)
     {
+        
         for (int i = 0 + 1; i <= _levelsTimerBadge.Length; i++)
         {
-            data.LevelsTimerReached.TryGetValue("Level" + i.ToString(), out _hasUnlockedTimerBadge);
-            if (_hasUnlockedTimerBadge)
+
+
+            data.LevelsBeaten.TryGetValue("Level" + i, out _hasBeatTheLevel);
+            data.LevelsTimerReached.TryGetValue("Level" + i, out _hasUnlockedTimerBadge);
+            data.CoinCollect.TryGetValue("Level" + i, out _hasUnlockedCoinBadge);
+
+            if (_hasBeatTheLevel)
             {
-                _levelsTimerBadge[i - 1].sprite = _spriteUnblockedBadge;
+                _levelsFireBadge[i - 1].sprite = _spriteFireUnblockedBadge;
+
+                if (_hasUnlockedTimerBadge)
+                {
+                    _levelsTimerBadge[i - 1].sprite = _spriteUnblockedBadge;
+                }
+                else
+                {
+                    _levelsTimerBadge[i - 1].sprite = _spriteTimerBlockedBadge;
+
+                }
+
+                if (_hasUnlockedCoinBadge)
+                {
+                    _levelsCoinBadge[i - 1].sprite = _spriteCoinUnblockedBadge;
+                }
+                else
+                {
+                    _levelsCoinBadge[i - 1].sprite = _spriteTimerBlockedBadge;
+                }
             }
             else
             {
-                _levelsTimerBadge[i - 1].sprite = _spriteTimerBlockedBadge;
+                _levelsFireBadge[i - 1].gameObject.SetActive(false);
+                _levelsTimerBadge[i - 1].gameObject.SetActive(false);
+                _levelsCoinBadge[i - 1].gameObject.SetActive(false);
             }
 
-            data.CoinCollect.TryGetValue("Level" + i.ToString(), out _hasUnlockedCoinBadge);
-            if (_hasUnlockedCoinBadge)
-            {
-                _levelsCoinBadge[i - 1].sprite = _spriteCoinUnblockedBadge;
-            }
-            else
-            {
-                _levelsCoinBadge[i - 1].sprite = _spriteTimerBlockedBadge;
-            }
+
+
+
         }
     }
 }

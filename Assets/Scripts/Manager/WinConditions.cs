@@ -35,6 +35,12 @@ public class WinConditions : MonoBehaviour, IDataPersistence
                 data.LevelsUnlocked.Remove("Level" + _sceneIndex);
             }
 
+            if(data.LevelsBeaten.ContainsKey("Level" + SceneManager.GetActiveScene().buildIndex))
+            {
+                data.LevelsBeaten.Remove("Level" + SceneManager.GetActiveScene().buildIndex);
+            }
+
+            data.LevelsBeaten.Add("Level" + SceneManager.GetActiveScene().buildIndex, true);
             data.LevelsUnlocked.Add("Level" + _sceneIndex, true);
         }
 

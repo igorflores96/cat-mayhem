@@ -24,6 +24,8 @@ public class NanaMovement : MonoBehaviour
     public GameObject safePointNana;
     public GameObject[] routPoints;
     [SerializeField] private float stopDistanceGap;
+    [SerializeField] private float nanaWalkVelocity;
+    [SerializeField] private float nanaRunVelocity;
 
 
     private GameObject[] objectsForChase;
@@ -132,9 +134,10 @@ public class NanaMovement : MonoBehaviour
 
         if (nanaReturnToSafe)
         {
-            agent.speed = 0.7f;
+            agent.speed = nanaWalkVelocity;
             nanaReturnToSafe = false;
             agent.SetDestination(safePointNana.transform.position);
+            transform.LookAt(safePointNana.transform.position);
             currentRoutPoint = 0;
         }
         else if (!canSeePlayer && !chaseBrokenObject)
@@ -148,7 +151,8 @@ public class NanaMovement : MonoBehaviour
                 else
                 {
                     agent.SetDestination(routPoints[currentRoutPoint].transform.position);
-                    agent.speed = 0.7f;
+                    transform.LookAt(routPoints[currentRoutPoint].transform.position);
+                    agent.speed = nanaWalkVelocity;
                     currentRoutPoint++;
                 }
             }
@@ -163,17 +167,18 @@ public class NanaMovement : MonoBehaviour
             }
 
         }
-        else
+        else if (!agent.isStopped)
         {
+            transform.LookAt(player.transform.position);
             agent.stoppingDistance = 0f; // pra ter certeza de que ela vai chegar até a posição do gato.
             agent.SetDestination(player.transform.position);
-            agent.speed = 1.6f;      
+            agent.speed = nanaRunVelocity;      
         }
     }
 
     private void AnimationsNana()
     {
-        if (agent.isStopped == true)
+        if (agent.isStopped)
             nanaAnimation.SetInteger("transition", 0);
         else if (canSeePlayer)
             nanaAnimation.SetInteger("transition", 2);

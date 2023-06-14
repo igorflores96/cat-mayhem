@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7873986586985921763}
   - component: {fileID: 7873986586985921764}
+  - component: {fileID: 6907100198146693695}
   m_Layer: 0
   m_Name: DataPersistenceManager
   m_TagString: Untagged
@@ -46,3 +47,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _fileName: data.game
   _useEncryption: 0
+--- !u!81 &6907100198146693695
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7873986586985921765}
+  m_Enabled: 1

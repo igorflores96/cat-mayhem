@@ -42,7 +42,6 @@ public class CatMovement : MonoBehaviour
 
 		if (Input.GetMouseButton(0))
 		{
-			_dustParticle.SetActive(true);
 			SetTypeMovement(screenRay);
 		}
 		else
@@ -51,6 +50,16 @@ public class CatMovement : MonoBehaviour
 				agent.isStopped = true;
 
 			catAnimation.SetInteger("transition", 0);
+		}
+
+
+		if(agent.isOnNavMesh)
+        {
+			_dustParticle.SetActive(true);
+		}
+		else
+        {
+			_dustParticle.SetActive(false);
 		}
 	}
 
@@ -62,7 +71,7 @@ public class CatMovement : MonoBehaviour
 			RaycastHit hit;
 
 			if (Physics.Raycast(screenRay, out hit, Mathf.Infinity, groundLayer))
-			{
+			{			
 				Vector3 agentPos = agent.transform.position;
 				Vector3 hitPos = hit.point;
 				hitPos.y = agentPos.y; // Mantém a mesma altura do agente para o cálculo de distância
@@ -74,8 +83,7 @@ public class CatMovement : MonoBehaviour
 					agent.SetDestination(hit.point);
 				}
 				else if (distance <= radius && laserScript.currentLaser == LasersTypes.laserBlue && !hasJumped)
-                {
-					_dustParticle.SetActive(false);
+                {				
 					JumpToClick();
 					catAnimation.SetInteger("transition", 2);
 					hasJumped = true;

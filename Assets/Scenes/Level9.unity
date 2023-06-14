@@ -36939,7 +36939,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584935860}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1584935862
 Camera:
   m_ObjectHideFlags: 0
@@ -42252,6 +42252,8 @@ MonoBehaviour:
   - {fileID: 927591479}
   - {fileID: 832104130}
   stopDistanceGap: 0.2
+  nanaWalkVelocity: 0.7
+  nanaRunVelocity: 1.6
   OnNanaHearObject:
     m_PersistentCalls:
       m_Calls:

@@ -24676,7 +24676,7 @@ Transform:
   - {fileID: 1090003230}
   - {fileID: 844928243}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &692520132
 PrefabInstance:
@@ -25729,6 +25729,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5754084199372789682, guid: 183c3da0f92d7ff47a20b4742087dd6f, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5495902117074765545, guid: 29926014aec09634181e19ff7cd3b5b2, type: 3}
     - target: {fileID: 919132149155446097, guid: 183c3da0f92d7ff47a20b4742087dd6f, type: 3}
       propertyPath: m_Name
       value: PlasticTable
@@ -31150,7 +31154,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584935860}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1584935862
 Camera:
   m_ObjectHideFlags: 0
@@ -31242,7 +31246,7 @@ Transform:
   - {fileID: 927591480}
   - {fileID: 832104131}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1788201661
 GameObject:
@@ -35100,6 +35104,8 @@ MonoBehaviour:
   - {fileID: 927591479}
   - {fileID: 832104130}
   stopDistanceGap: 0.2
+  nanaWalkVelocity: 0.7
+  nanaRunVelocity: 1.6
   OnNanaHearObject:
     m_PersistentCalls:
       m_Calls:

@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 626223}
   - component: {fileID: 626222}
   - component: {fileID: 626225}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (2)
   m_TagString: Obstacles
   m_Icon: {fileID: 0}
@@ -20626,7 +20626,7 @@ GameObject:
   - component: {fileID: 1136978562}
   - component: {fileID: 1136978566}
   - component: {fileID: 1136978565}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (3)
   m_TagString: Obstacles
   m_Icon: {fileID: 0}
@@ -21672,7 +21672,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584935860}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1584935862
 Camera:
   m_ObjectHideFlags: 0
@@ -22164,7 +22164,7 @@ GameObject:
   - component: {fileID: 1896275282}
   - component: {fileID: 1896275281}
   - component: {fileID: 1896275284}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (1)
   m_TagString: Obstacles
   m_Icon: {fileID: 0}
@@ -35871,8 +35871,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   winConditionsScript: {fileID: 1895659345}
   player: {fileID: 2527155272233201908}
-  radius: 2
-  angle: 20
+  radius: 1.5
+  angle: 54
   canSeePlayer: 0
   targetMask:
     serializedVersion: 2
@@ -35887,6 +35887,8 @@ MonoBehaviour:
   - {fileID: 832104130}
   - {fileID: 1988633964}
   stopDistanceGap: 0.2
+  nanaWalkVelocity: 0.7
+  nanaRunVelocity: 1.6
   OnNanaHearObject:
     m_PersistentCalls:
       m_Calls:

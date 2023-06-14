@@ -15,6 +15,7 @@ public class LevelSelect : MonoBehaviour, IDataPersistence
     [SerializeField]
     private Button MenuButton;
 
+
     public void LoadData(GameData data)
     {
         for(int i = 0 + 1; i <= ButtonsLeveis.Length; i++)
@@ -26,10 +27,9 @@ public class LevelSelect : MonoBehaviour, IDataPersistence
             }
             else
             {
-                ButtonsLeveis[i-1].interactable = false;
+                ButtonsLeveis[i - 1].gameObject.SetActive(false);
             }
         }
-
     }
 
     public void SaveData(GameData data)
@@ -49,7 +49,7 @@ public class LevelSelect : MonoBehaviour, IDataPersistence
         ButtonsLeveis[7].onClick.AddListener(OnButtonLevelEightClick);
         ButtonsLeveis[8].onClick.AddListener(OnButtonLevelNineClick);
         ButtonsLeveis[9].onClick.AddListener(OnButtonLevelTenClick);
-        MenuButton.onClick.AddListener(OnButtonMenuClick);
+        MenuButton.onClick.AddListener(OnMenuButtonClick);
     }
 
     private void OnButtonLevelOneClick()
@@ -92,7 +92,7 @@ public class LevelSelect : MonoBehaviour, IDataPersistence
     {
         SceneManager.LoadScene("Level10");
     }
-    private void OnButtonMenuClick()
+    private void OnMenuButtonClick()
     {
         SceneManager.LoadScene("MainMenu");
     }
