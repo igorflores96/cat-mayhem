@@ -31,6 +31,7 @@ public class BadgesManager : MonoBehaviour, IDataPersistence
     private bool _hasUnlockedTimerBadge;
     private bool _hasUnlockedCoinBadge;
     private bool _hasBeatTheLevel;
+    private bool _hasUnlockedTheLevel;
 
 
     public void SaveData(GameData data)
@@ -44,14 +45,18 @@ public class BadgesManager : MonoBehaviour, IDataPersistence
         for (int i = 0 + 1; i <= _levelsTimerBadge.Length; i++)
         {
 
-
+            data.LevelsUnlocked.TryGetValue("Level" + i, out _hasUnlockedTheLevel);
             data.LevelsBeaten.TryGetValue("Level" + i, out _hasBeatTheLevel);
             data.LevelsTimerReached.TryGetValue("Level" + i, out _hasUnlockedTimerBadge);
             data.CoinCollect.TryGetValue("Level" + i, out _hasUnlockedCoinBadge);
 
-            if (_hasBeatTheLevel)
+            if (_hasUnlockedTheLevel)
             {
-                _levelsFireBadge[i - 1].sprite = _spriteFireUnblockedBadge;
+
+                if (_hasBeatTheLevel)
+                    _levelsFireBadge[i - 1].sprite = _spriteFireUnblockedBadge;
+                else
+                    _levelsFireBadge[i - 1].sprite = _spriteTimerBlockedBadge;
 
                 if (_hasUnlockedTimerBadge)
                 {
