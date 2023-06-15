@@ -25,8 +25,9 @@ public class BadgesManager : MonoBehaviour, IDataPersistence
     [SerializeField]
     private Image[] _levelsFireBadge;
 
-
-
+    [Header("Sprite Levels")]
+    [SerializeField]
+    private GameObject[] _levelsImages;
 
     private bool _hasUnlockedTimerBadge;
     private bool _hasUnlockedCoinBadge;
@@ -42,8 +43,9 @@ public class BadgesManager : MonoBehaviour, IDataPersistence
     public void LoadData(GameData data)
     {
         
-        for (int i = 0 + 1; i <= _levelsTimerBadge.Length; i++)
+        for (int i = 1; i <= _levelsTimerBadge.Length; i++)
         {
+            Color tmp = new Color(0, 0, 0, 0.7f);
 
             data.LevelsUnlocked.TryGetValue("Level" + i, out _hasUnlockedTheLevel);
             data.LevelsBeaten.TryGetValue("Level" + i, out _hasBeatTheLevel);
@@ -53,10 +55,17 @@ public class BadgesManager : MonoBehaviour, IDataPersistence
             if (_hasUnlockedTheLevel)
             {
 
+                _levelsImages[i - 1].SetActive(true);
+
                 if (_hasBeatTheLevel)
+                {
                     _levelsFireBadge[i - 1].sprite = _spriteFireUnblockedBadge;
+                }
                 else
+                {
                     _levelsFireBadge[i - 1].sprite = _spriteTimerBlockedBadge;
+                    _levelsFireBadge[i - 1].color = tmp;
+                }
 
                 if (_hasUnlockedTimerBadge)
                 {
@@ -65,7 +74,7 @@ public class BadgesManager : MonoBehaviour, IDataPersistence
                 else
                 {
                     _levelsTimerBadge[i - 1].sprite = _spriteTimerBlockedBadge;
-
+                    _levelsTimerBadge[i - 1].color = tmp;
                 }
 
                 if (_hasUnlockedCoinBadge)
@@ -75,6 +84,7 @@ public class BadgesManager : MonoBehaviour, IDataPersistence
                 else
                 {
                     _levelsCoinBadge[i - 1].sprite = _spriteTimerBlockedBadge;
+                    _levelsCoinBadge[i - 1].color = tmp;
                 }
             }
             else
@@ -82,11 +92,8 @@ public class BadgesManager : MonoBehaviour, IDataPersistence
                 _levelsFireBadge[i - 1].gameObject.SetActive(false);
                 _levelsTimerBadge[i - 1].gameObject.SetActive(false);
                 _levelsCoinBadge[i - 1].gameObject.SetActive(false);
+                _levelsImages[i - 1].SetActive(false);
             }
-
-
-
-
         }
     }
 }
