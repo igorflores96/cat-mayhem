@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 using UnityEngine.SceneManagement;
 
 public class TimerChallenge : MonoBehaviour, IDataPersistence
@@ -8,6 +9,10 @@ public class TimerChallenge : MonoBehaviour, IDataPersistence
     private float _timeLevel;
     private bool _beatTheTime;
     private string _sceneName;
+
+    [SerializeField]
+    private TextMeshProUGUI _timerText;
+
     void Awake()
     {
         _timeLevel = 0;
@@ -37,6 +42,7 @@ public class TimerChallenge : MonoBehaviour, IDataPersistence
     void Update()
     {
         _timeLevel += Time.deltaTime;
+        _timerText.text = _timeLevel.ToString("00");
     }
     public void CalculateTimer(float TimeToBeat)
     {

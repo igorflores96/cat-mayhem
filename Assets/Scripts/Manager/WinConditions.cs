@@ -74,7 +74,7 @@ public class WinConditions : MonoBehaviour, IDataPersistence
         {
             _levelComplete = true;
             OnWinLevel?.Invoke();
-            Invoke("ChangeScene", 0.5f);
+            Invoke("OnWinGame", 0.5f);
         }
     }
 
@@ -83,7 +83,7 @@ public class WinConditions : MonoBehaviour, IDataPersistence
         caosBar.fillAmount = Mathf.Lerp(caosBar.fillAmount, caosCount / brokenObjectsInScene.Length, lerpSpeedBar);
     }
 
-    private void ChangeScene()
+    private void OnWinGame()
     {
         SceneManager.LoadSceneAsync("WinScreen");
     }
