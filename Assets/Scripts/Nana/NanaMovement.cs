@@ -179,7 +179,7 @@ public class NanaMovement : MonoBehaviour
     private void AnimationsNana()
     {
         if (agent.isStopped)
-            nanaAnimation.SetInteger("transition", 0);
+            nanaAnimation.SetInteger("transition", 3);
         else if (canSeePlayer)
             nanaAnimation.SetInteger("transition", 2);
         else
