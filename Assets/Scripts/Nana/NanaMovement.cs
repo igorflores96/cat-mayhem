@@ -35,10 +35,13 @@ public class NanaMovement : MonoBehaviour
 
     private bool chaseBrokenObject = false;
     private bool nanaReturnToSafe = false;
+    private bool nanaSeeCat = false;
     private Animator nanaAnimation;
 
     public UnityEvent OnNanaHearObject;
     public UnityEvent OnNanaSeeinCat;
+    public UnityEvent OnNanaSeeCat;
+
 
 
 
@@ -89,19 +92,28 @@ public class NanaMovement : MonoBehaviour
                     canSeePlayer = true;
                     chaseBrokenObject = false;
                     OnNanaSeeinCat?.Invoke();
+
+                    if(!nanaSeeCat)
+                    {
+                        nanaSeeCat = true;
+                        OnNanaSeeCat?.Invoke();
+                    }
                 }             
                 else
                 {
+                    nanaSeeCat = false;
                     canSeePlayer = false;
                 }
             }
             else //gato sai da visão da avó normalmente
             {
+                nanaSeeCat = false;
                 canSeePlayer = false;
             }
         }
         else if (canSeePlayer)
         {
+            nanaSeeCat = false;
             canSeePlayer = false;
             nanaReturnToSafe = true;
         }
