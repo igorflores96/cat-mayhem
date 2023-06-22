@@ -181,7 +181,7 @@ public class NanaMovement : MonoBehaviour
         }
         else if (!agent.isStopped)
         {
-            transform.LookAt(player.transform.position);
+            transform.LookAt(new Vector3(player.transform.position.x, transform.position.y, player.transform.position.z));
             agent.stoppingDistance = 0f; // pra ter certeza de que ela vai chegar até a posição do gato.
             agent.SetDestination(player.transform.position);
             agent.speed = nanaRunVelocity;      
