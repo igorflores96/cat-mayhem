@@ -15,7 +15,6 @@ public class GameData
 
 
 
-
     public GameData()
     {
         LevelsTimerReached = new SerializableDictionary<string, bool>();
