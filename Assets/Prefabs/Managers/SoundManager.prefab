@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 2900898551913385897}
   - component: {fileID: 4726472333462097539}
   - component: {fileID: 3058125748597264813}
+  - component: {fileID: 5304383684121731769}
   m_Layer: 0
   m_Name: SoundManager
   m_TagString: Untagged
@@ -353,6 +354,34 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 9133599608380127736}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5304383684121731769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2431175670199070415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f8fc43bbaf65d9458a1f9cf03f7927e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: 188f5a4ec17692c4fb7058f85dfcc460, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8424962954001039395}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
@@ -1174,7 +1203,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -3381218061130924054, guid: 1c54bb83858976846805c9cecac95050, type: 2}
-  m_audioClip: {fileID: 8300000, guid: dad960b5af06a2c4088dc8a1feabef92, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 1c272f82be250da45bd8b0435db76bcb, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.7
   m_Pitch: 1
@@ -1558,7 +1587,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -3381218061130924054, guid: 1c54bb83858976846805c9cecac95050, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 2b56256700ab8dc448843750570d737a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fab67da8f8d4f2a4fb8ebedc6b51e45b, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
@@ -2070,11 +2099,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 9148031859281771739, guid: 1c54bb83858976846805c9cecac95050, type: 2}
-  m_audioClip: {fileID: 8300000, guid: d7af9025c8ca38e4588b64a27a9038a0, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7623a802c766f08489cba6701d893e74, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

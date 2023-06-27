@@ -36,6 +36,8 @@ public class NanaMovement : MonoBehaviour
     private bool chaseBrokenObject = false;
     private bool nanaReturnToSafe = false;
     private bool nanaSeeCat = false;
+    
+    [SerializeField]
     private Animator nanaAnimation;
 
     public UnityEvent OnNanaHearObject;
@@ -47,7 +49,6 @@ public class NanaMovement : MonoBehaviour
 
     void Start()
     {
-        nanaAnimation = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player");
         StartCoroutine(FOVRoutine());
         agent = GetComponent<NavMeshAgent>();
