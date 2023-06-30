@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
@@ -12,6 +13,12 @@ public class TimerChallenge : MonoBehaviour, IDataPersistence
 
     [SerializeField]
     private TextMeshProUGUI _timerText;
+
+    [SerializeField]
+    private FloatReference _timeToBeat;
+
+    [SerializeField]
+    private Image _pawImage;
 
     void Awake()
     {
@@ -43,10 +50,17 @@ public class TimerChallenge : MonoBehaviour, IDataPersistence
     {
         _timeLevel += Time.deltaTime;
         _timerText.text = _timeLevel.ToString("00");
+
+        if(_timeLevel > _timeToBeat.Value)
+        {
+            Color tempColor = _pawImage.color;
+            tempColor.a = 0.5f;
+            _pawImage.color = tempColor;
+        }
     }
-    public void CalculateTimer(float TimeToBeat)
+    public void CalculateTimer()
     {
-        if(_timeLevel <= TimeToBeat)
+        if(_timeLevel <= _timeToBeat.Value)
         {
             _beatTheTime = true;
         }

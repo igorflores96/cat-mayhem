@@ -13,10 +13,15 @@ public class GameData
 
     public SerializableDictionary<string, bool> LevelsBeaten;
 
+    public float MusicVolume;
+    public float EffectsVolume;
+
+
 
 
     public GameData()
     {
+        MusicVolume = EffectsVolume = 0.50f;
         LevelsTimerReached = new SerializableDictionary<string, bool>();
         CoinCollect = new SerializableDictionary<string, bool>();
         LevelsBeaten = new SerializableDictionary<string, bool>();

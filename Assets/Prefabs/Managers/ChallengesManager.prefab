@@ -45,6 +45,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0da18d921794bc4a9a417bf26f825c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _timerText: {fileID: 0}
+  _timeToBeat:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
 --- !u!114 &957385820538976045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64,7 +69,7 @@ MonoBehaviour:
       - m_Target: {fileID: 957385820538976044}
         m_TargetAssemblyTypeName: TimerChallenge, Assembly-CSharp
         m_MethodName: CalculateTimer
-        m_Mode: 4
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
