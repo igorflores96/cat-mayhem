@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class GameplayStart : MonoBehaviour
 {
     public UnityEvent OnGameplayStart;
-    void Awake()
+    void Start()
     {
         OnGameplayStart?.Invoke();
     }

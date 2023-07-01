@@ -29,8 +29,8 @@ public class CatMovement : MonoBehaviour
 	void Start()
 	{
 		agent = GetComponent<NavMeshAgent>();
-		catAnimation = GetComponent<Animator>();
 		catRigidBody = GetComponent<Rigidbody>();
+		catAnimation = GetComponent<Animator>();
 		OnCatStart?.Invoke();
 		Invoke("JumpStart", 0.2f);
 
@@ -49,7 +49,8 @@ public class CatMovement : MonoBehaviour
 			if (agent.isOnNavMesh)
 				agent.isStopped = true;
 
-			catAnimation.SetInteger("transition", 0);
+            catAnimation.SetInteger("transition", 0);
+			_dustParticle.SetActive(false);
 		}
 
 
@@ -83,9 +84,9 @@ public class CatMovement : MonoBehaviour
 					agent.SetDestination(hit.point);
 				}
 				else if (distance <= radius && laserScript.currentLaser == LasersTypes.laserBlue && !hasJumped)
-                {				
-					JumpToClick();
+                {
 					catAnimation.SetInteger("transition", 2);
+					JumpToClick();			
 					hasJumped = true;
 				}
 				else //Para o gato. Caso o jogador continue segurando o mouse e saia do raio do laser.
@@ -116,10 +117,12 @@ public class CatMovement : MonoBehaviour
 
 	private void JumpStart()
     {
+
+		catAnimation.SetInteger("transition", 2);
 		_dustParticle.SetActive(false);
 		Vector3 _inicialJump = _initialJumpLocal.position - transform.position;
 		_inicialJump.y = 3f;
-		catRigidBody.AddForce(_inicialJump.normalized * jumpForce, ForceMode.Impulse);
+		catRigidBody.AddForce(_inicialJump.normalized * jumpForce, ForceMode.Impulse);	
 		agent.enabled = false;
 		Invoke("ResetAgent", resetTimeJump);
 	}

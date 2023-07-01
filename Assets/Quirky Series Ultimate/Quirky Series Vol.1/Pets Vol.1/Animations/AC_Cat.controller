@@ -801,13 +801,13 @@ AnimatorStateMachine:
     m_Position: {x: 240, y: 420, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5984845726242356159}
-    m_Position: {x: 90, y: 500, z: 0}
+    m_Position: {x: -140, y: 580, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2533722405116775125}
     m_Position: {x: -140, y: 410, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 9192835441710600769}
-    m_Position: {x: -140, y: 530, z: 0}
+    m_Position: {x: 80, y: 530, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []

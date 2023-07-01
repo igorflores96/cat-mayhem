@@ -6,7 +6,7 @@ public class CircleRenderer : MonoBehaviour
     [SerializeField] private int segments = 50;
     [SerializeField] private Color color;
     [SerializeField] private float heightOffset = 0.1f;
-    private float radius = 1f;
+    [SerializeField] private float radius = 1f;
     public RayCastGun laserScript;
     public CatMovement catScript;
 
@@ -22,23 +22,13 @@ public class CircleRenderer : MonoBehaviour
         lineRenderer.endWidth = 0.05f;
         lineRenderer.startColor = color;
         lineRenderer.endColor = color;
+        
 
     }
 
     private void Update()
     {
-        if (laserScript.currentLaser == LasersTypes.laserRed)
-        {
-            radius = catScript.radius * 2f;
-        }
-        else if (laserScript.currentLaser == LasersTypes.laserBlue)
-        {
-           radius = catScript.radius * 2f;
-
-        }
-
         CreatePoints();
-
     }
 
     private void CreatePoints()
