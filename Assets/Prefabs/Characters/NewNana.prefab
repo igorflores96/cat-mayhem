@@ -280,7 +280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   winConditionsScript: {fileID: 0}
-  player: {fileID: 0}
+  player: {fileID: 6311334935976002394, guid: b6f35533cde38b74592ed8a12c1a06f2, type: 3}
   radius: 1.5
   angle: 54
   canSeePlayer: 0
@@ -298,7 +298,7 @@ MonoBehaviour:
   - {fileID: 0}
   stopDistanceGap: 0.2
   nanaWalkVelocity: 0.5
-  nanaRunVelocity: 1.4
+  nanaRunVelocity: 1.6
   nanaAnimation: {fileID: 315712103346465562}
   OnNanaHearObject:
     m_PersistentCalls:
@@ -370,6 +370,18 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 621720696213263944}
+        m_TargetAssemblyTypeName: UnityEngine.AI.NavMeshAgent, UnityEngine
+        m_MethodName: set_speed
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0.5
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
