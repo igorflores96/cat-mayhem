@@ -23,6 +23,7 @@ public class CatMovement : MonoBehaviour
 
 	public float radius;
 
+	private Vector3 safePosition;
 
 
 
@@ -85,6 +86,7 @@ public class CatMovement : MonoBehaviour
 				}
 				else if (distance <= radius && laserScript.currentLaser == LasersTypes.laserBlue && !hasJumped)
                 {
+					safePosition = transform.position;
 					catAnimation.SetInteger("transition", 2);
 					JumpToClick();			
 					hasJumped = true;
@@ -107,7 +109,7 @@ public class CatMovement : MonoBehaviour
 			Vector3 jumpDirection = hit.point - transform.position;
 			jumpDirection.y = 2f;
 			catRigidBody.AddForce(jumpDirection.normalized * jumpForce, ForceMode.Impulse);
-			transform.LookAt(hit.point);
+			transform.LookAt(new Vector3(hit.point.x, transform.position.y, hit.point.z));
 			agent.enabled = false;
 			Invoke("ResetHasJumped", resetTimeJump);
 			Invoke("ResetAgent", resetTimeJump);
@@ -117,8 +119,7 @@ public class CatMovement : MonoBehaviour
 
 	private void JumpStart()
     {
-
-		catAnimation.SetInteger("transition", 2);
+		catAnimation.SetTrigger("Jump");
 		_dustParticle.SetActive(false);
 		Vector3 _inicialJump = _initialJumpLocal.position - transform.position;
 		_inicialJump.y = 3f;

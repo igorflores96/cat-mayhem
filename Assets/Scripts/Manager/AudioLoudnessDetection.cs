@@ -2,28 +2,37 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AudioLoudnessDetection : MonoBehaviour
+public class AudioLoudnessDetection : MonoBehaviour, IDataPersistence
 {
     // Start is called before the first frame update
     //Amount of data collect before the clip
     public int sampleWaveTotal = 64;
+    private string microphoneName;
     private AudioClip microphoneClip;
-    void Start()
+    private int currentMic;
+
+
+    public void LoadData(GameData data)
     {
-        MicrophoneToAudioClip();
+        currentMic = data.SelectedMicDevice;
     }
 
-    public void MicrophoneToAudioClip()
+    public void SaveData(GameData data)
     {
-        string microphoneName = Microphone.devices[0];
-        Debug.Log(microphoneName);
+
+    }
+
+    private void Start()
+    {
+        microphoneName = Microphone.devices[currentMic];
+        Debug.Log("Recebeu do save o valor: " + currentMic);
         microphoneClip = Microphone.Start(microphoneName, true, 20, AudioSettings.outputSampleRate);
+        Debug.Log(microphoneName);
     }
-
 
     public float GetLoudnessMicrophone()
-    {
-        return GetLoudness(Microphone.GetPosition(Microphone.devices[0]), microphoneClip);
+    {   
+        return GetLoudness(Microphone.GetPosition(microphoneName), microphoneClip);
     }
 
     //clip position represents the point in a audio wave we need to verify the loudness

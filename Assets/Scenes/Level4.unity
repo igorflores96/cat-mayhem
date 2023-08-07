@@ -26983,6 +26983,10 @@ PrefabInstance:
       propertyPath: detector
       value: 
       objectReference: {fileID: 1895659347}
+    - target: {fileID: 621720696213263947, guid: 086d1c32d62f9ae4b95d0c11af048398, type: 3}
+      propertyPath: loudnessSensibility
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 621720696213263949, guid: 086d1c32d62f9ae4b95d0c11af048398, type: 3}
       propertyPath: m_Name
       value: NewNana
