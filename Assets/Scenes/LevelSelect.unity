@@ -6927,8 +6927,8 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 768622833956185835}
         m_TargetAssemblyTypeName: LevelSelect, Assembly-CSharp
-        m_MethodName: GoToLevel
-        m_Mode: 3
+        m_MethodName: LevelOne
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

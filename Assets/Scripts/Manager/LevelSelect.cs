@@ -15,6 +15,8 @@ public class LevelSelect : MonoBehaviour, IDataPersistence
     [SerializeField]
     private Button MenuButton;
 
+    private bool _cutscenePlayed;
+
 
     public void LoadData(GameData data)
     {
@@ -30,11 +32,13 @@ public class LevelSelect : MonoBehaviour, IDataPersistence
                 ButtonsLeveis[i - 1].gameObject.SetActive(false);
             }
         }
+
+        _cutscenePlayed = data.SeeCutscene;
     }
 
     public void SaveData(GameData data)
     {
-
+        data.SeeCutscene = _cutscenePlayed;
     }
 
     private void Awake()
@@ -49,6 +53,19 @@ public class LevelSelect : MonoBehaviour, IDataPersistence
     public void GoToLevel(int levelIndex)
     {
         StartCoroutine(WaitToChange(levelIndex));
+    }
+
+    public void LevelOne()
+    {
+        if(_cutscenePlayed)
+        {
+            StartCoroutine(WaitToChange(1));
+        }
+        else
+        {
+            _cutscenePlayed = true;
+            SceneManager.LoadScene(14); //Index da cena que vai a cutscene.
+        }
     }
 
     IEnumerator WaitToChange(int levelIndex)
